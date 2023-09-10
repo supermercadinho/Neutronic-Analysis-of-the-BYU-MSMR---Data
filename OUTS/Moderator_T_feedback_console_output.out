@@ -1,0 +1,3932 @@
+poison_def referenced
+the working poison is Gadalinium
+xF from UF4: 0.11415107286845548
+Fissionable mass in salt cell: 16444.776104844826
+Sum check: 1.0000161508617667
+poison ao: 0.0
+typ: 0 , row: 0 ,  angle: 0
+typ: 1 , row: 1 ,  angle: 7.5
+typ: 2 , row: 2 ,  angle: 15.0
+typ: 3 , row: 3 ,  angle: 22.5
+typ: 0 , row: 4 ,  angle: 30.0
+typ: 1 , row: 5 ,  angle: 37.5
+typ: 2 , row: 6 ,  angle: 45.0
+typ: 3 , row: 7 ,  angle: 52.5
+typ: 0 , row: 8 ,  angle: 60.0
+typ: 1 , row: 9 ,  angle: 67.5
+typ: 2 , row: 10 ,  angle: 75.0
+typ: 3 , row: 11 ,  angle: 82.5
+typ: 0 , row: 12 ,  angle: 90.0
+typ: 1 , row: 13 ,  angle: 97.5
+[m9-53-4.rc.byu.edu:02815] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2019 MIT and OpenMC contributors
+           License | http://openmc.readthedocs.io/en/latest/license.html
+           Version | 0.11.0
+         Date/Time | 2022-11-14 10:16:46
+     MPI Processes | 1
+    OpenMP Threads | 28
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ar36 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ Reading Ar38 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r38.h5
+ Reading Ar40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r40.h5
+ Reading Pb204 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b204.h5
+ Reading Pb206 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b206.h5
+ Reading Pb207 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b207.h5
+ Reading Pb208 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b208.h5
+ Reading Ni58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i58.h5
+ Reading Ni60 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i60.h5
+ Reading Ni61 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i61.h5
+ Reading Ni62 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i62.h5
+ Reading Ni64 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i64.h5
+ Reading Cr50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r50.h5
+ Reading Cr52 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r52.h5
+ Reading Cr53 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r53.h5
+ Reading Cr54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r54.h5
+ Reading Mo100 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o100.h5
+ Reading Mo92 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o92.h5
+ Reading Mo94 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o94.h5
+ Reading Mo95 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o95.h5
+ Reading Mo96 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o96.h5
+ Reading Mo97 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o97.h5
+ Reading Mo98 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o98.h5
+ Reading Fe54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e54.h5
+ Reading Fe56 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e56.h5
+ Reading Fe57 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e57.h5
+ Reading Fe58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e58.h5
+ Reading Si28 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i28.h5
+ Reading Si29 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i29.h5
+ Reading Si30 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i30.h5
+ Reading Mn55 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ n55.h5
+ Reading C0 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ 0.h5
+ Reading Co59 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ o59.h5
+ Reading W180 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 180.h5
+ Reading W182 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 182.h5
+ Reading W183 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 183.h5
+ Reading W184 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 184.h5
+ Reading W186 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 186.h5
+ Reading Al27 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ l27.h5
+ Reading B10 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 10.h5
+ Reading B11 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 11.h5
+ Reading Nb93 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ b93.h5
+ Reading Ti46 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i46.h5
+ Reading Ti47 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i47.h5
+ Reading Ti48 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i48.h5
+ Reading Ti49 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i49.h5
+ Reading Ti50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i50.h5
+ Reading Li6 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i6.h5
+ Reading Li7 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i7.h5
+ Reading Na23 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ a23.h5
+ Reading K39 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 39.h5
+ Reading K40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 40.h5
+ Reading K41 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 41.h5
+ Reading F19 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ 19.h5
+ Reading U233 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/U
+ 233.h5
+ Reading Cu63 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u63.h5
+ Reading Cu65 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u65.h5
+ Reading N14 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 14.h5
+ Reading N15 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 15.h5
+ Maximum neutron transport energy: 20000000.000000 eV for Ar36
+ Minimum neutron data temperature: 900.000000 K
+ Maximum neutron data temperature: 900.000000 K
+ Reading tallies XML file...
+ Writing summary.h5 file...
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.01355
+        2/1    1.04715
+        3/1    1.05798
+        4/1    1.05891
+        5/1    1.05508
+        6/1    1.06647
+        7/1    1.07065
+        8/1    1.04785
+        9/1    1.05761
+       10/1    1.08731
+       11/1    1.08136
+       12/1    1.08917
+       13/1    1.03303
+       14/1    1.08382
+       15/1    1.06447
+       16/1    1.03638
+       17/1    1.06381
+       18/1    1.06286
+       19/1    1.06971
+       20/1    1.10796
+       21/1    1.07049
+       22/1    1.06151    1.06600 +/- 0.00449
+       23/1    1.05795    1.06332 +/- 0.00373
+       24/1    1.06477    1.06368 +/- 0.00266
+       25/1    1.05405    1.06175 +/- 0.00282
+       26/1    1.06071    1.06158 +/- 0.00231
+       27/1    1.05534    1.06069 +/- 0.00215
+       28/1    1.05375    1.05982 +/- 0.00205
+       29/1    1.06428    1.06032 +/- 0.00188
+       30/1    1.08116    1.06240 +/- 0.00268
+       31/1    1.07733    1.06376 +/- 0.00278
+       32/1    1.08901    1.06586 +/- 0.00329
+       33/1    1.06511    1.06580 +/- 0.00303
+       34/1    1.06258    1.06557 +/- 0.00281
+       35/1    1.05507    1.06487 +/- 0.00271
+       36/1    1.07820    1.06571 +/- 0.00267
+       37/1    1.07712    1.06638 +/- 0.00260
+       38/1    1.08099    1.06719 +/- 0.00258
+       39/1    1.07906    1.06781 +/- 0.00252
+       40/1    1.06957    1.06790 +/- 0.00239
+       41/1    1.09562    1.06922 +/- 0.00263
+       42/1    1.07860    1.06965 +/- 0.00254
+       43/1    1.03964    1.06834 +/- 0.00276
+       44/1    1.05735    1.06788 +/- 0.00268
+       45/1    1.06794    1.06789 +/- 0.00257
+       46/1    1.08670    1.06861 +/- 0.00257
+       47/1    1.04312    1.06767 +/- 0.00265
+       48/1    1.07157    1.06781 +/- 0.00256
+       49/1    1.07619    1.06809 +/- 0.00248
+       50/1    1.05554    1.06768 +/- 0.00244
+       51/1    1.08585    1.06826 +/- 0.00243
+       52/1    1.09062    1.06896 +/- 0.00245
+       53/1    1.08809    1.06954 +/- 0.00245
+       54/1    1.07266    1.06963 +/- 0.00238
+       55/1    1.07740    1.06985 +/- 0.00232
+       56/1    1.07210    1.06992 +/- 0.00225
+       57/1    1.06932    1.06990 +/- 0.00219
+       58/1    1.08524    1.07030 +/- 0.00217
+       59/1    1.06795    1.07024 +/- 0.00212
+       60/1    1.08462    1.07060 +/- 0.00209
+       61/1    1.05325    1.07018 +/- 0.00208
+       62/1    1.05981    1.06993 +/- 0.00205
+       63/1    1.05548    1.06960 +/- 0.00203
+       64/1    1.07652    1.06975 +/- 0.00199
+       65/1    1.08901    1.07018 +/- 0.00199
+       66/1    1.08855    1.07058 +/- 0.00199
+       67/1    1.07294    1.07063 +/- 0.00195
+       68/1    1.07816    1.07079 +/- 0.00191
+       69/1    1.09028    1.07119 +/- 0.00191
+       70/1    1.07778    1.07132 +/- 0.00188
+       71/1    1.08205    1.07153 +/- 0.00185
+       72/1    1.07125    1.07152 +/- 0.00182
+       73/1    1.08427    1.07176 +/- 0.00180
+       74/1    1.06468    1.07163 +/- 0.00177
+       75/1    1.06650    1.07154 +/- 0.00174
+       76/1    1.05558    1.07125 +/- 0.00173
+       77/1    1.09914    1.07174 +/- 0.00177
+       78/1    1.07181    1.07174 +/- 0.00174
+       79/1    1.08101    1.07190 +/- 0.00172
+       80/1    1.07740    1.07199 +/- 0.00169
+       81/1    1.06336    1.07185 +/- 0.00167
+       82/1    1.07371    1.07188 +/- 0.00164
+       83/1    1.06676    1.07180 +/- 0.00162
+       84/1    1.04634    1.07140 +/- 0.00164
+       85/1    1.06671    1.07133 +/- 0.00162
+       86/1    1.07823    1.07143 +/- 0.00160
+       87/1    1.06935    1.07140 +/- 0.00157
+       88/1    1.05753    1.07120 +/- 0.00156
+       89/1    1.06199    1.07107 +/- 0.00155
+       90/1    1.06407    1.07097 +/- 0.00153
+       91/1    1.05960    1.07081 +/- 0.00151
+       92/1    1.07992    1.07093 +/- 0.00150
+       93/1    1.07134    1.07094 +/- 0.00148
+       94/1    1.05304    1.07070 +/- 0.00148
+       95/1    1.07666    1.07078 +/- 0.00146
+       96/1    1.04302    1.07041 +/- 0.00149
+       97/1    1.06057    1.07028 +/- 0.00147
+       98/1    1.04235    1.06993 +/- 0.00150
+       99/1    1.05197    1.06970 +/- 0.00149
+      100/1    1.07240    1.06973 +/- 0.00148
+      101/1    1.05801    1.06959 +/- 0.00147
+      102/1    1.07663    1.06967 +/- 0.00145
+      103/1    1.05850    1.06954 +/- 0.00144
+      104/1    1.07304    1.06958 +/- 0.00142
+      105/1    1.08542    1.06977 +/- 0.00142
+      106/1    1.05146    1.06955 +/- 0.00142
+      107/1    1.05289    1.06936 +/- 0.00141
+      108/1    1.06354    1.06930 +/- 0.00140
+      109/1    1.08838    1.06951 +/- 0.00140
+      110/1    1.05029    1.06930 +/- 0.00140
+      111/1    1.06126    1.06921 +/- 0.00139
+      112/1    1.05493    1.06905 +/- 0.00138
+      113/1    1.06620    1.06902 +/- 0.00137
+      114/1    1.06973    1.06903 +/- 0.00135
+      115/1    1.03573    1.06868 +/- 0.00138
+      116/1    1.08606    1.06886 +/- 0.00138
+      117/1    1.06268    1.06880 +/- 0.00137
+      118/1    1.07615    1.06887 +/- 0.00136
+      119/1    1.06144    1.06880 +/- 0.00134
+      120/1    1.05552    1.06866 +/- 0.00134
+ Creating state point statepoint.120.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 1.9491e+01 seconds
+   Reading cross sections          = 1.8312e+01 seconds
+ Total time in simulation          = 2.5673e+03 seconds
+   Time in transport only          = 2.4861e+03 seconds
+   Time in inactive batches        = 3.8054e+02 seconds
+   Time in active batches          = 2.1868e+03 seconds
+   Time synchronizing fission bank = 1.3237e-01 seconds
+     Sampling source sites         = 1.1536e-01 seconds
+     SEND/RECV source sites        = 1.5568e-02 seconds
+   Time accumulating tallies       = 8.0118e+01 seconds
+ Total time for finalization       = 3.3627e+01 seconds
+ Total time elapsed                = 2.6304e+03 seconds
+ Calculation Rate (inactive)       = 525.571 particles/second
+ Calculation Rate (active)         = 457.288 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.06971 +/- 0.00114
+ k-effective (Track-length)  = 1.06866 +/- 0.00134
+ k-effective (Absorption)    = 1.07184 +/- 0.00108
+ Combined k-effective        = 1.07058 +/- 0.00083
+ Leakage Fraction            = 0.00187 +/- 0.00005
+
+xF from UF4: 0.11415107286845548
+Fissionable mass in salt cell: 16444.776104844826
+Sum check: 1.0000161508617667
+poison ao: 0.0
+typ: 0 , row: 0 ,  angle: 0
+typ: 1 , row: 1 ,  angle: 7.5
+typ: 2 , row: 2 ,  angle: 15.0
+typ: 3 , row: 3 ,  angle: 22.5
+typ: 0 , row: 4 ,  angle: 30.0
+typ: 1 , row: 5 ,  angle: 37.5
+typ: 2 , row: 6 ,  angle: 45.0
+typ: 3 , row: 7 ,  angle: 52.5
+typ: 0 , row: 8 ,  angle: 60.0
+typ: 1 , row: 9 ,  angle: 67.5
+typ: 2 , row: 10 ,  angle: 75.0
+typ: 3 , row: 11 ,  angle: 82.5
+typ: 0 , row: 12 ,  angle: 90.0
+typ: 1 , row: 13 ,  angle: 97.5
+[m9-53-4.rc.byu.edu:13221] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2019 MIT and OpenMC contributors
+           License | http://openmc.readthedocs.io/en/latest/license.html
+           Version | 0.11.0
+         Date/Time | 2022-11-14 11:00:47
+     MPI Processes | 1
+    OpenMP Threads | 28
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ar36 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ Reading Ar38 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r38.h5
+ Reading Ar40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r40.h5
+ Reading Pb204 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b204.h5
+ Reading Pb206 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b206.h5
+ Reading Pb207 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b207.h5
+ Reading Pb208 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b208.h5
+ Reading Ni58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i58.h5
+ Reading Ni60 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i60.h5
+ Reading Ni61 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i61.h5
+ Reading Ni62 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i62.h5
+ Reading Ni64 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i64.h5
+ Reading Cr50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r50.h5
+ Reading Cr52 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r52.h5
+ Reading Cr53 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r53.h5
+ Reading Cr54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r54.h5
+ Reading Mo100 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o100.h5
+ Reading Mo92 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o92.h5
+ Reading Mo94 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o94.h5
+ Reading Mo95 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o95.h5
+ Reading Mo96 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o96.h5
+ Reading Mo97 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o97.h5
+ Reading Mo98 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o98.h5
+ Reading Fe54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e54.h5
+ Reading Fe56 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e56.h5
+ Reading Fe57 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e57.h5
+ Reading Fe58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e58.h5
+ Reading Si28 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i28.h5
+ Reading Si29 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i29.h5
+ Reading Si30 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i30.h5
+ Reading Mn55 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ n55.h5
+ Reading C0 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ 0.h5
+ Reading Co59 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ o59.h5
+ Reading W180 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 180.h5
+ Reading W182 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 182.h5
+ Reading W183 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 183.h5
+ Reading W184 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 184.h5
+ Reading W186 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 186.h5
+ Reading Al27 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ l27.h5
+ Reading B10 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 10.h5
+ Reading B11 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 11.h5
+ Reading Nb93 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ b93.h5
+ Reading Ti46 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i46.h5
+ Reading Ti47 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i47.h5
+ Reading Ti48 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i48.h5
+ Reading Ti49 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i49.h5
+ Reading Ti50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i50.h5
+ Reading Li6 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i6.h5
+ Reading Li7 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i7.h5
+ Reading Na23 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ a23.h5
+ Reading K39 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 39.h5
+ Reading K40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 40.h5
+ Reading K41 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 41.h5
+ Reading F19 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ 19.h5
+ Reading U233 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/U
+ 233.h5
+ Reading Cu63 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u63.h5
+ Reading Cu65 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u65.h5
+ Reading N14 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 14.h5
+ Reading N15 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 15.h5
+ Maximum neutron transport energy: 20000000.000000 eV for Ar36
+ Minimum neutron data temperature: 900.000000 K
+ Maximum neutron data temperature: 900.000000 K
+ Reading tallies XML file...
+ Writing summary.h5 file...
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.03307
+        2/1    1.05201
+        3/1    1.06110
+        4/1    1.04123
+        5/1    1.05004
+        6/1    1.05405
+        7/1    1.07171
+        8/1    1.05425
+        9/1    1.06404
+       10/1    1.05587
+       11/1    1.06379
+       12/1    1.06152
+       13/1    1.05922
+       14/1    1.06654
+       15/1    1.07810
+       16/1    1.09168
+       17/1    1.07095
+       18/1    1.06732
+       19/1    1.07638
+       20/1    1.08068
+       21/1    1.08918
+       22/1    1.08315    1.08617 +/- 0.00301
+       23/1    1.06885    1.08039 +/- 0.00603
+       24/1    1.07100    1.07805 +/- 0.00487
+       25/1    1.06198    1.07483 +/- 0.00495
+       26/1    1.06309    1.07288 +/- 0.00449
+       27/1    1.09404    1.07590 +/- 0.00485
+       28/1    1.08501    1.07704 +/- 0.00436
+       29/1    1.07153    1.07643 +/- 0.00389
+       30/1    1.06262    1.07505 +/- 0.00374
+       31/1    1.09267    1.07665 +/- 0.00375
+       32/1    1.06990    1.07609 +/- 0.00347
+       33/1    1.08372    1.07667 +/- 0.00324
+       34/1    1.06694    1.07598 +/- 0.00308
+       35/1    1.06961    1.07555 +/- 0.00290
+       36/1    1.06201    1.07471 +/- 0.00284
+       37/1    1.08362    1.07523 +/- 0.00272
+       38/1    1.05612    1.07417 +/- 0.00277
+       39/1    1.06108    1.07348 +/- 0.00271
+       40/1    1.05903    1.07276 +/- 0.00267
+       41/1    1.08178    1.07319 +/- 0.00258
+       42/1    1.10869    1.07480 +/- 0.00294
+       43/1    1.05551    1.07396 +/- 0.00293
+       44/1    1.07639    1.07406 +/- 0.00281
+       45/1    1.09022    1.07471 +/- 0.00277
+       46/1    1.09017    1.07530 +/- 0.00273
+       47/1    1.07342    1.07523 +/- 0.00263
+       48/1    1.06760    1.07496 +/- 0.00255
+       49/1    1.05994    1.07444 +/- 0.00251
+       50/1    1.05661    1.07385 +/- 0.00250
+       51/1    1.08407    1.07418 +/- 0.00244
+       52/1    1.08962    1.07466 +/- 0.00241
+       53/1    1.06657    1.07442 +/- 0.00235
+       54/1    1.07116    1.07432 +/- 0.00228
+       55/1    1.06401    1.07403 +/- 0.00223
+       56/1    1.08936    1.07445 +/- 0.00221
+       57/1    1.07590    1.07449 +/- 0.00215
+       58/1    1.08192    1.07469 +/- 0.00210
+       59/1    1.07453    1.07468 +/- 0.00205
+       60/1    1.07577    1.07471 +/- 0.00200
+       61/1    1.09789    1.07527 +/- 0.00203
+       62/1    1.05399    1.07477 +/- 0.00204
+       63/1    1.08225    1.07494 +/- 0.00200
+       64/1    1.06290    1.07467 +/- 0.00198
+       65/1    1.07966    1.07478 +/- 0.00193
+       66/1    1.06296    1.07452 +/- 0.00191
+       67/1    1.07539    1.07454 +/- 0.00187
+       68/1    1.07915    1.07464 +/- 0.00183
+       69/1    1.06937    1.07453 +/- 0.00180
+       70/1    1.08162    1.07467 +/- 0.00177
+       71/1    1.06100    1.07440 +/- 0.00175
+       72/1    1.07452    1.07441 +/- 0.00172
+       73/1    1.05991    1.07413 +/- 0.00171
+       74/1    1.06179    1.07390 +/- 0.00169
+       75/1    1.07237    1.07388 +/- 0.00166
+       76/1    1.08261    1.07403 +/- 0.00164
+       77/1    1.06613    1.07389 +/- 0.00161
+       78/1    1.08759    1.07413 +/- 0.00160
+       79/1    1.08920    1.07438 +/- 0.00160
+       80/1    1.09549    1.07474 +/- 0.00161
+       81/1    1.06999    1.07466 +/- 0.00158
+       82/1    1.06145    1.07445 +/- 0.00157
+       83/1    1.08014    1.07454 +/- 0.00155
+       84/1    1.06563    1.07440 +/- 0.00153
+       85/1    1.09187    1.07467 +/- 0.00153
+       86/1    1.06733    1.07455 +/- 0.00151
+       87/1    1.06339    1.07439 +/- 0.00150
+       88/1    1.08129    1.07449 +/- 0.00148
+       89/1    1.07502    1.07450 +/- 0.00146
+       90/1    1.06136    1.07431 +/- 0.00145
+       91/1    1.08195    1.07442 +/- 0.00143
+       92/1    1.07109    1.07437 +/- 0.00141
+       93/1    1.05978    1.07417 +/- 0.00141
+       94/1    1.06442    1.07404 +/- 0.00140
+       95/1    1.06435    1.07391 +/- 0.00138
+       96/1    1.03910    1.07345 +/- 0.00144
+       97/1    1.05854    1.07326 +/- 0.00143
+       98/1    1.06615    1.07317 +/- 0.00142
+       99/1    1.07968    1.07325 +/- 0.00140
+      100/1    1.06903    1.07320 +/- 0.00139
+      101/1    1.05461    1.07297 +/- 0.00139
+      102/1    1.06778    1.07290 +/- 0.00137
+      103/1    1.05731    1.07272 +/- 0.00137
+      104/1    1.09232    1.07295 +/- 0.00137
+      105/1    1.08055    1.07304 +/- 0.00136
+      106/1    1.06865    1.07299 +/- 0.00134
+      107/1    1.06206    1.07286 +/- 0.00133
+      108/1    1.06286    1.07275 +/- 0.00132
+      109/1    1.05571    1.07256 +/- 0.00132
+      110/1    1.06466    1.07247 +/- 0.00131
+      111/1    1.05707    1.07230 +/- 0.00131
+      112/1    1.07539    1.07233 +/- 0.00129
+      113/1    1.08393    1.07246 +/- 0.00129
+      114/1    1.06655    1.07240 +/- 0.00127
+      115/1    1.06372    1.07230 +/- 0.00126
+      116/1    1.05564    1.07213 +/- 0.00126
+      117/1    1.06938    1.07210 +/- 0.00125
+      118/1    1.06210    1.07200 +/- 0.00124
+      119/1    1.07957    1.07208 +/- 0.00123
+      120/1    1.06560    1.07201 +/- 0.00122
+ Creating state point statepoint.120.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 8.8448e+00 seconds
+   Reading cross sections          = 7.9935e+00 seconds
+ Total time in simulation          = 2.6075e+03 seconds
+   Time in transport only          = 2.5242e+03 seconds
+   Time in inactive batches        = 3.8676e+02 seconds
+   Time in active batches          = 2.2208e+03 seconds
+   Time synchronizing fission bank = 1.4209e-01 seconds
+     Sampling source sites         = 1.2373e-01 seconds
+     SEND/RECV source sites        = 1.6721e-02 seconds
+   Time accumulating tallies       = 8.2397e+01 seconds
+ Total time for finalization       = 3.3773e+01 seconds
+ Total time elapsed                = 2.6600e+03 seconds
+ Calculation Rate (inactive)       = 517.111 particles/second
+ Calculation Rate (active)         = 450.298 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.07280 +/- 0.00122
+ k-effective (Track-length)  = 1.07201 +/- 0.00122
+ k-effective (Absorption)    = 1.07131 +/- 0.00118
+ Combined k-effective        = 1.07176 +/- 0.00096
+ Leakage Fraction            = 0.00186 +/- 0.00005
+
+xF from UF4: 0.11415107286845548
+Fissionable mass in salt cell: 16444.776104844826
+Sum check: 1.0000161508617667
+poison ao: 0.0
+typ: 0 , row: 0 ,  angle: 0
+typ: 1 , row: 1 ,  angle: 7.5
+typ: 2 , row: 2 ,  angle: 15.0
+typ: 3 , row: 3 ,  angle: 22.5
+typ: 0 , row: 4 ,  angle: 30.0
+typ: 1 , row: 5 ,  angle: 37.5
+typ: 2 , row: 6 ,  angle: 45.0
+typ: 3 , row: 7 ,  angle: 52.5
+typ: 0 , row: 8 ,  angle: 60.0
+typ: 1 , row: 9 ,  angle: 67.5
+typ: 2 , row: 10 ,  angle: 75.0
+typ: 3 , row: 11 ,  angle: 82.5
+typ: 0 , row: 12 ,  angle: 90.0
+typ: 1 , row: 13 ,  angle: 97.5
+[m9-53-4.rc.byu.edu:23742] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2019 MIT and OpenMC contributors
+           License | http://openmc.readthedocs.io/en/latest/license.html
+           Version | 0.11.0
+         Date/Time | 2022-11-14 11:45:17
+     MPI Processes | 1
+    OpenMP Threads | 28
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ar36 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ Reading Ar38 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r38.h5
+ Reading Ar40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r40.h5
+ Reading Pb204 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b204.h5
+ Reading Pb206 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b206.h5
+ Reading Pb207 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b207.h5
+ Reading Pb208 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b208.h5
+ Reading Ni58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i58.h5
+ Reading Ni60 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i60.h5
+ Reading Ni61 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i61.h5
+ Reading Ni62 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i62.h5
+ Reading Ni64 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i64.h5
+ Reading Cr50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r50.h5
+ Reading Cr52 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r52.h5
+ Reading Cr53 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r53.h5
+ Reading Cr54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r54.h5
+ Reading Mo100 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o100.h5
+ Reading Mo92 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o92.h5
+ Reading Mo94 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o94.h5
+ Reading Mo95 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o95.h5
+ Reading Mo96 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o96.h5
+ Reading Mo97 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o97.h5
+ Reading Mo98 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o98.h5
+ Reading Fe54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e54.h5
+ Reading Fe56 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e56.h5
+ Reading Fe57 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e57.h5
+ Reading Fe58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e58.h5
+ Reading Si28 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i28.h5
+ Reading Si29 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i29.h5
+ Reading Si30 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i30.h5
+ Reading Mn55 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ n55.h5
+ Reading C0 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ 0.h5
+ Reading Co59 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ o59.h5
+ Reading W180 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 180.h5
+ Reading W182 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 182.h5
+ Reading W183 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 183.h5
+ Reading W184 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 184.h5
+ Reading W186 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 186.h5
+ Reading Al27 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ l27.h5
+ Reading B10 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 10.h5
+ Reading B11 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 11.h5
+ Reading Nb93 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ b93.h5
+ Reading Ti46 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i46.h5
+ Reading Ti47 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i47.h5
+ Reading Ti48 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i48.h5
+ Reading Ti49 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i49.h5
+ Reading Ti50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i50.h5
+ Reading Li6 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i6.h5
+ Reading Li7 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i7.h5
+ Reading Na23 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ a23.h5
+ Reading K39 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 39.h5
+ Reading K40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 40.h5
+ Reading K41 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 41.h5
+ Reading F19 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ 19.h5
+ Reading U233 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/U
+ 233.h5
+ Reading Cu63 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u63.h5
+ Reading Cu65 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u65.h5
+ Reading N14 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 14.h5
+ Reading N15 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 15.h5
+ Maximum neutron transport energy: 20000000.000000 eV for Ar36
+ Minimum neutron data temperature: 900.000000 K
+ Maximum neutron data temperature: 900.000000 K
+ Reading tallies XML file...
+ Writing summary.h5 file...
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.02043
+        2/1    1.01680
+        3/1    1.03852
+        4/1    1.06427
+        5/1    1.05321
+        6/1    1.05414
+        7/1    1.08313
+        8/1    1.07135
+        9/1    1.07116
+       10/1    1.08522
+       11/1    1.07587
+       12/1    1.06255
+       13/1    1.06308
+       14/1    1.06483
+       15/1    1.09051
+       16/1    1.06900
+       17/1    1.06737
+       18/1    1.07079
+       19/1    1.08480
+       20/1    1.07425
+       21/1    1.07691
+       22/1    1.06637    1.07164 +/- 0.00527
+       23/1    1.08908    1.07745 +/- 0.00656
+       24/1    1.06932    1.07542 +/- 0.00507
+       25/1    1.06342    1.07302 +/- 0.00460
+       26/1    1.07569    1.07346 +/- 0.00378
+       27/1    1.04079    1.06880 +/- 0.00566
+       28/1    1.07005    1.06895 +/- 0.00490
+       29/1    1.08389    1.07061 +/- 0.00463
+       30/1    1.08910    1.07246 +/- 0.00454
+       31/1    1.07801    1.07297 +/- 0.00413
+       32/1    1.07101    1.07280 +/- 0.00378
+       33/1    1.06780    1.07242 +/- 0.00350
+       34/1    1.11206    1.07525 +/- 0.00430
+       35/1    1.07140    1.07499 +/- 0.00401
+       36/1    1.06822    1.07457 +/- 0.00378
+       37/1    1.08235    1.07503 +/- 0.00358
+       38/1    1.05839    1.07410 +/- 0.00350
+       39/1    1.05945    1.07333 +/- 0.00340
+       40/1    1.07255    1.07329 +/- 0.00322
+       41/1    1.05743    1.07254 +/- 0.00316
+       42/1    1.06815    1.07234 +/- 0.00302
+       43/1    1.07081    1.07227 +/- 0.00288
+       44/1    1.05964    1.07174 +/- 0.00281
+       45/1    1.06001    1.07127 +/- 0.00274
+       46/1    1.06581    1.07106 +/- 0.00264
+       47/1    1.07449    1.07119 +/- 0.00254
+       48/1    1.05789    1.07072 +/- 0.00249
+       49/1    1.06258    1.07044 +/- 0.00242
+       50/1    1.09564    1.07128 +/- 0.00249
+       51/1    1.06355    1.07103 +/- 0.00242
+       52/1    1.07156    1.07104 +/- 0.00234
+       53/1    1.05784    1.07064 +/- 0.00230
+       54/1    1.08435    1.07105 +/- 0.00227
+       55/1    1.09033    1.07160 +/- 0.00227
+       56/1    1.08197    1.07189 +/- 0.00223
+       57/1    1.08789    1.07232 +/- 0.00221
+       58/1    1.07299    1.07234 +/- 0.00215
+       59/1    1.06276    1.07209 +/- 0.00211
+       60/1    1.05176    1.07158 +/- 0.00212
+       61/1    1.06901    1.07152 +/- 0.00207
+       62/1    1.09010    1.07196 +/- 0.00206
+       63/1    1.08583    1.07228 +/- 0.00204
+       64/1    1.06541    1.07213 +/- 0.00200
+       65/1    1.06055    1.07187 +/- 0.00197
+       66/1    1.06021    1.07162 +/- 0.00195
+       67/1    1.08554    1.07191 +/- 0.00193
+       68/1    1.07259    1.07193 +/- 0.00189
+       69/1    1.06981    1.07188 +/- 0.00185
+       70/1    1.09587    1.07236 +/- 0.00187
+       71/1    1.07854    1.07248 +/- 0.00184
+       72/1    1.09169    1.07285 +/- 0.00184
+       73/1    1.07377    1.07287 +/- 0.00181
+       74/1    1.07970    1.07300 +/- 0.00178
+       75/1    1.07704    1.07307 +/- 0.00175
+       76/1    1.07496    1.07311 +/- 0.00172
+       77/1    1.07509    1.07314 +/- 0.00169
+       78/1    1.09265    1.07348 +/- 0.00169
+       79/1    1.06750    1.07338 +/- 0.00166
+       80/1    1.07003    1.07332 +/- 0.00164
+       81/1    1.07120    1.07328 +/- 0.00161
+       82/1    1.07198    1.07326 +/- 0.00158
+       83/1    1.08759    1.07349 +/- 0.00158
+       84/1    1.06236    1.07332 +/- 0.00156
+       85/1    1.06759    1.07323 +/- 0.00154
+       86/1    1.06622    1.07312 +/- 0.00152
+       87/1    1.07033    1.07308 +/- 0.00150
+       88/1    1.08488    1.07325 +/- 0.00148
+       89/1    1.07046    1.07321 +/- 0.00146
+       90/1    1.06343    1.07307 +/- 0.00145
+       91/1    1.06829    1.07301 +/- 0.00143
+       92/1    1.07356    1.07301 +/- 0.00141
+       93/1    1.09709    1.07334 +/- 0.00143
+       94/1    1.06860    1.07328 +/- 0.00141
+       95/1    1.06835    1.07321 +/- 0.00139
+       96/1    1.07909    1.07329 +/- 0.00138
+       97/1    1.08878    1.07349 +/- 0.00137
+       98/1    1.07298    1.07349 +/- 0.00136
+       99/1    1.07702    1.07353 +/- 0.00134
+      100/1    1.05667    1.07332 +/- 0.00134
+      101/1    1.07995    1.07340 +/- 0.00133
+      102/1    1.06126    1.07325 +/- 0.00132
+      103/1    1.08799    1.07343 +/- 0.00131
+      104/1    1.06083    1.07328 +/- 0.00131
+      105/1    1.09145    1.07350 +/- 0.00131
+      106/1    1.10209    1.07383 +/- 0.00134
+      107/1    1.06019    1.07367 +/- 0.00133
+      108/1    1.09656    1.07393 +/- 0.00134
+      109/1    1.06592    1.07384 +/- 0.00133
+      110/1    1.07422    1.07385 +/- 0.00131
+      111/1    1.04441    1.07352 +/- 0.00134
+      112/1    1.04659    1.07323 +/- 0.00136
+      113/1    1.07933    1.07329 +/- 0.00134
+      114/1    1.09859    1.07356 +/- 0.00136
+      115/1    1.07709    1.07360 +/- 0.00134
+      116/1    1.08261    1.07370 +/- 0.00133
+      117/1    1.05519    1.07350 +/- 0.00133
+      118/1    1.07203    1.07349 +/- 0.00132
+      119/1    1.07461    1.07350 +/- 0.00130
+      120/1    1.08325    1.07360 +/- 0.00129
+ Creating state point statepoint.120.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 1.0332e+01 seconds
+   Reading cross sections          = 9.2892e+00 seconds
+ Total time in simulation          = 2.8275e+03 seconds
+   Time in transport only          = 2.7365e+03 seconds
+   Time in inactive batches        = 4.2249e+02 seconds
+   Time in active batches          = 2.4051e+03 seconds
+   Time synchronizing fission bank = 1.5493e-01 seconds
+     Sampling source sites         = 1.3578e-01 seconds
+     SEND/RECV source sites        = 1.7342e-02 seconds
+   Time accumulating tallies       = 8.9937e+01 seconds
+ Total time for finalization       = 3.4136e+01 seconds
+ Total time elapsed                = 2.8817e+03 seconds
+ Calculation Rate (inactive)       = 473.388 particles/second
+ Calculation Rate (active)         = 415.791 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.07256 +/- 0.00120
+ k-effective (Track-length)  = 1.07360 +/- 0.00129
+ k-effective (Absorption)    = 1.07154 +/- 0.00105
+ Combined k-effective        = 1.07212 +/- 0.00096
+ Leakage Fraction            = 0.00176 +/- 0.00004
+
+xF from UF4: 0.11415107286845548
+Fissionable mass in salt cell: 16444.776104844826
+Sum check: 1.0000161508617667
+poison ao: 0.0
+typ: 0 , row: 0 ,  angle: 0
+typ: 1 , row: 1 ,  angle: 7.5
+typ: 2 , row: 2 ,  angle: 15.0
+typ: 3 , row: 3 ,  angle: 22.5
+typ: 0 , row: 4 ,  angle: 30.0
+typ: 1 , row: 5 ,  angle: 37.5
+typ: 2 , row: 6 ,  angle: 45.0
+typ: 3 , row: 7 ,  angle: 52.5
+typ: 0 , row: 8 ,  angle: 60.0
+typ: 1 , row: 9 ,  angle: 67.5
+typ: 2 , row: 10 ,  angle: 75.0
+typ: 3 , row: 11 ,  angle: 82.5
+typ: 0 , row: 12 ,  angle: 90.0
+typ: 1 , row: 13 ,  angle: 97.5
+[m9-53-4.rc.byu.edu:03091] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2019 MIT and OpenMC contributors
+           License | http://openmc.readthedocs.io/en/latest/license.html
+           Version | 0.11.0
+         Date/Time | 2022-11-14 12:33:30
+     MPI Processes | 1
+    OpenMP Threads | 28
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ar36 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ Reading Ar38 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r38.h5
+ Reading Ar40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r40.h5
+ Reading Pb204 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b204.h5
+ Reading Pb206 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b206.h5
+ Reading Pb207 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b207.h5
+ Reading Pb208 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b208.h5
+ Reading Ni58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i58.h5
+ Reading Ni60 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i60.h5
+ Reading Ni61 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i61.h5
+ Reading Ni62 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i62.h5
+ Reading Ni64 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i64.h5
+ Reading Cr50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r50.h5
+ Reading Cr52 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r52.h5
+ Reading Cr53 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r53.h5
+ Reading Cr54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r54.h5
+ Reading Mo100 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o100.h5
+ Reading Mo92 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o92.h5
+ Reading Mo94 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o94.h5
+ Reading Mo95 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o95.h5
+ Reading Mo96 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o96.h5
+ Reading Mo97 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o97.h5
+ Reading Mo98 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o98.h5
+ Reading Fe54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e54.h5
+ Reading Fe56 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e56.h5
+ Reading Fe57 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e57.h5
+ Reading Fe58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e58.h5
+ Reading Si28 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i28.h5
+ Reading Si29 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i29.h5
+ Reading Si30 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i30.h5
+ Reading Mn55 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ n55.h5
+ Reading C0 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ 0.h5
+ Reading Co59 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ o59.h5
+ Reading W180 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 180.h5
+ Reading W182 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 182.h5
+ Reading W183 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 183.h5
+ Reading W184 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 184.h5
+ Reading W186 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 186.h5
+ Reading Al27 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ l27.h5
+ Reading B10 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 10.h5
+ Reading B11 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 11.h5
+ Reading Nb93 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ b93.h5
+ Reading Ti46 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i46.h5
+ Reading Ti47 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i47.h5
+ Reading Ti48 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i48.h5
+ Reading Ti49 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i49.h5
+ Reading Ti50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i50.h5
+ Reading Li6 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i6.h5
+ Reading Li7 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i7.h5
+ Reading Na23 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ a23.h5
+ Reading K39 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 39.h5
+ Reading K40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 40.h5
+ Reading K41 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 41.h5
+ Reading F19 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ 19.h5
+ Reading U233 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/U
+ 233.h5
+ Reading Cu63 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u63.h5
+ Reading Cu65 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u65.h5
+ Reading N14 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 14.h5
+ Reading N15 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 15.h5
+ Maximum neutron transport energy: 20000000.000000 eV for Ar36
+ Minimum neutron data temperature: 900.000000 K
+ Maximum neutron data temperature: 900.000000 K
+ Reading tallies XML file...
+ Writing summary.h5 file...
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.00311
+        2/1    1.04686
+        3/1    1.06023
+        4/1    1.05143
+        5/1    1.07542
+        6/1    1.05292
+        7/1    1.08407
+        8/1    1.05679
+        9/1    1.07388
+       10/1    1.04425
+       11/1    1.10755
+       12/1    1.08991
+       13/1    1.05329
+       14/1    1.08641
+       15/1    1.08158
+       16/1    1.07677
+       17/1    1.07633
+       18/1    1.06681
+       19/1    1.06126
+       20/1    1.08127
+       21/1    1.06593
+       22/1    1.07042    1.06817 +/- 0.00225
+       23/1    1.08189    1.07275 +/- 0.00475
+       24/1    1.11027    1.08213 +/- 0.00996
+       25/1    1.07462    1.08063 +/- 0.00786
+       26/1    1.09816    1.08355 +/- 0.00705
+       27/1    1.08498    1.08375 +/- 0.00597
+       28/1    1.07287    1.08239 +/- 0.00534
+       29/1    1.06112    1.08003 +/- 0.00527
+       30/1    1.06890    1.07892 +/- 0.00484
+       31/1    1.08332    1.07932 +/- 0.00440
+       32/1    1.03652    1.07575 +/- 0.00537
+       33/1    1.07388    1.07561 +/- 0.00494
+       34/1    1.06257    1.07467 +/- 0.00467
+       35/1    1.06143    1.07379 +/- 0.00444
+       36/1    1.09233    1.07495 +/- 0.00431
+       37/1    1.07660    1.07505 +/- 0.00405
+       38/1    1.06428    1.07445 +/- 0.00386
+       39/1    1.08437    1.07497 +/- 0.00369
+       40/1    1.07815    1.07513 +/- 0.00351
+       41/1    1.07003    1.07489 +/- 0.00334
+       42/1    1.07336    1.07482 +/- 0.00319
+       43/1    1.06860    1.07455 +/- 0.00306
+       44/1    1.09097    1.07523 +/- 0.00301
+       45/1    1.06438    1.07480 +/- 0.00292
+       46/1    1.07554    1.07483 +/- 0.00280
+       47/1    1.06751    1.07456 +/- 0.00271
+       48/1    1.07744    1.07466 +/- 0.00261
+       49/1    1.07235    1.07458 +/- 0.00252
+       50/1    1.07057    1.07445 +/- 0.00244
+       51/1    1.05731    1.07389 +/- 0.00243
+       52/1    1.06621    1.07365 +/- 0.00236
+       53/1    1.08566    1.07402 +/- 0.00232
+       54/1    1.09248    1.07456 +/- 0.00231
+       55/1    1.04974    1.07385 +/- 0.00235
+       56/1    1.08162    1.07407 +/- 0.00230
+       57/1    1.05998    1.07369 +/- 0.00227
+       58/1    1.05126    1.07310 +/- 0.00228
+       59/1    1.08894    1.07350 +/- 0.00226
+       60/1    1.08857    1.07388 +/- 0.00224
+       61/1    1.06710    1.07371 +/- 0.00219
+       62/1    1.06440    1.07349 +/- 0.00215
+       63/1    1.06449    1.07328 +/- 0.00211
+       64/1    1.06609    1.07312 +/- 0.00206
+       65/1    1.06700    1.07298 +/- 0.00202
+       66/1    1.06808    1.07288 +/- 0.00198
+       67/1    1.03437    1.07206 +/- 0.00210
+       68/1    1.07213    1.07206 +/- 0.00206
+       69/1    1.07161    1.07205 +/- 0.00202
+       70/1    1.10109    1.07263 +/- 0.00206
+       71/1    1.07839    1.07274 +/- 0.00202
+       72/1    1.05870    1.07247 +/- 0.00200
+       73/1    1.05629    1.07217 +/- 0.00199
+       74/1    1.05816    1.07191 +/- 0.00197
+       75/1    1.07361    1.07194 +/- 0.00193
+       76/1    1.07464    1.07199 +/- 0.00190
+       77/1    1.08291    1.07218 +/- 0.00187
+       78/1    1.08606    1.07242 +/- 0.00186
+       79/1    1.06505    1.07229 +/- 0.00183
+       80/1    1.04567    1.07185 +/- 0.00185
+       81/1    1.07192    1.07185 +/- 0.00182
+       82/1    1.09346    1.07220 +/- 0.00183
+       83/1    1.08283    1.07237 +/- 0.00180
+       84/1    1.08594    1.07258 +/- 0.00179
+       85/1    1.08168    1.07272 +/- 0.00177
+       86/1    1.10133    1.07315 +/- 0.00179
+       87/1    1.08466    1.07333 +/- 0.00177
+       88/1    1.05947    1.07312 +/- 0.00176
+       89/1    1.07987    1.07322 +/- 0.00174
+       90/1    1.06955    1.07317 +/- 0.00171
+       91/1    1.07944    1.07325 +/- 0.00169
+       92/1    1.08576    1.07343 +/- 0.00168
+       93/1    1.05692    1.07320 +/- 0.00167
+       94/1    1.06060    1.07303 +/- 0.00165
+       95/1    1.09392    1.07331 +/- 0.00166
+       96/1    1.06663    1.07322 +/- 0.00164
+       97/1    1.06899    1.07317 +/- 0.00162
+       98/1    1.05443    1.07293 +/- 0.00161
+       99/1    1.05344    1.07268 +/- 0.00161
+      100/1    1.07613    1.07272 +/- 0.00159
+      101/1    1.06633    1.07265 +/- 0.00157
+      102/1    1.08106    1.07275 +/- 0.00156
+      103/1    1.07340    1.07276 +/- 0.00154
+      104/1    1.06164    1.07262 +/- 0.00153
+      105/1    1.05640    1.07243 +/- 0.00152
+      106/1    1.07836    1.07250 +/- 0.00150
+      107/1    1.08706    1.07267 +/- 0.00150
+      108/1    1.07036    1.07264 +/- 0.00148
+      109/1    1.06781    1.07259 +/- 0.00146
+      110/1    1.06619    1.07252 +/- 0.00145
+      111/1    1.06585    1.07244 +/- 0.00143
+      112/1    1.05842    1.07229 +/- 0.00143
+      113/1    1.08093    1.07238 +/- 0.00141
+      114/1    1.06875    1.07235 +/- 0.00140
+      115/1    1.07840    1.07241 +/- 0.00139
+      116/1    1.06699    1.07235 +/- 0.00137
+      117/1    1.07474    1.07238 +/- 0.00136
+      118/1    1.07103    1.07236 +/- 0.00135
+      119/1    1.07225    1.07236 +/- 0.00133
+      120/1    1.08921    1.07253 +/- 0.00133
+ Creating state point statepoint.120.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 9.2267e+00 seconds
+   Reading cross sections          = 8.1714e+00 seconds
+ Total time in simulation          = 2.7450e+03 seconds
+   Time in transport only          = 2.6651e+03 seconds
+   Time in inactive batches        = 4.1187e+02 seconds
+   Time in active batches          = 2.3331e+03 seconds
+   Time synchronizing fission bank = 1.3371e-01 seconds
+     Sampling source sites         = 1.1635e-01 seconds
+     SEND/RECV source sites        = 1.5694e-02 seconds
+   Time accumulating tallies       = 7.8953e+01 seconds
+ Total time for finalization       = 3.3743e+01 seconds
+ Total time elapsed                = 2.7979e+03 seconds
+ Calculation Rate (inactive)       = 485.587 particles/second
+ Calculation Rate (active)         = 428.611 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.07165 +/- 0.00120
+ k-effective (Track-length)  = 1.07253 +/- 0.00133
+ k-effective (Absorption)    = 1.07006 +/- 0.00106
+ Combined k-effective        = 1.07091 +/- 0.00095
+ Leakage Fraction            = 0.00189 +/- 0.00005
+
+xF from UF4: 0.11415107286845548
+Fissionable mass in salt cell: 16444.776104844826
+Sum check: 1.0000161508617667
+poison ao: 0.0
+typ: 0 , row: 0 ,  angle: 0
+typ: 1 , row: 1 ,  angle: 7.5
+typ: 2 , row: 2 ,  angle: 15.0
+typ: 3 , row: 3 ,  angle: 22.5
+typ: 0 , row: 4 ,  angle: 30.0
+typ: 1 , row: 5 ,  angle: 37.5
+typ: 2 , row: 6 ,  angle: 45.0
+typ: 3 , row: 7 ,  angle: 52.5
+typ: 0 , row: 8 ,  angle: 60.0
+typ: 1 , row: 9 ,  angle: 67.5
+typ: 2 , row: 10 ,  angle: 75.0
+typ: 3 , row: 11 ,  angle: 82.5
+typ: 0 , row: 12 ,  angle: 90.0
+typ: 1 , row: 13 ,  angle: 97.5
+[m9-53-4.rc.byu.edu:14109] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2019 MIT and OpenMC contributors
+           License | http://openmc.readthedocs.io/en/latest/license.html
+           Version | 0.11.0
+         Date/Time | 2022-11-14 13:20:18
+     MPI Processes | 1
+    OpenMP Threads | 28
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ar36 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ Reading Ar38 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r38.h5
+ Reading Ar40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r40.h5
+ Reading Pb204 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b204.h5
+ Reading Pb206 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b206.h5
+ Reading Pb207 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b207.h5
+ Reading Pb208 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b208.h5
+ Reading Ni58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i58.h5
+ Reading Ni60 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i60.h5
+ Reading Ni61 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i61.h5
+ Reading Ni62 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i62.h5
+ Reading Ni64 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i64.h5
+ Reading Cr50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r50.h5
+ Reading Cr52 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r52.h5
+ Reading Cr53 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r53.h5
+ Reading Cr54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r54.h5
+ Reading Mo100 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o100.h5
+ Reading Mo92 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o92.h5
+ Reading Mo94 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o94.h5
+ Reading Mo95 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o95.h5
+ Reading Mo96 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o96.h5
+ Reading Mo97 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o97.h5
+ Reading Mo98 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o98.h5
+ Reading Fe54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e54.h5
+ Reading Fe56 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e56.h5
+ Reading Fe57 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e57.h5
+ Reading Fe58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e58.h5
+ Reading Si28 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i28.h5
+ Reading Si29 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i29.h5
+ Reading Si30 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i30.h5
+ Reading Mn55 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ n55.h5
+ Reading C0 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ 0.h5
+ Reading Co59 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ o59.h5
+ Reading W180 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 180.h5
+ Reading W182 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 182.h5
+ Reading W183 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 183.h5
+ Reading W184 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 184.h5
+ Reading W186 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 186.h5
+ Reading Al27 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ l27.h5
+ Reading B10 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 10.h5
+ Reading B11 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 11.h5
+ Reading Nb93 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ b93.h5
+ Reading Ti46 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i46.h5
+ Reading Ti47 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i47.h5
+ Reading Ti48 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i48.h5
+ Reading Ti49 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i49.h5
+ Reading Ti50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i50.h5
+ Reading Li6 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i6.h5
+ Reading Li7 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i7.h5
+ Reading Na23 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ a23.h5
+ Reading K39 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 39.h5
+ Reading K40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 40.h5
+ Reading K41 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 41.h5
+ Reading F19 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ 19.h5
+ Reading U233 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/U
+ 233.h5
+ Reading Cu63 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u63.h5
+ Reading Cu65 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u65.h5
+ Reading N14 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 14.h5
+ Reading N15 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 15.h5
+ Maximum neutron transport energy: 20000000.000000 eV for Ar36
+ Minimum neutron data temperature: 900.000000 K
+ Maximum neutron data temperature: 900.000000 K
+ Reading tallies XML file...
+ Writing summary.h5 file...
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.02519
+        2/1    1.02507
+        3/1    1.05172
+        4/1    1.05718
+        5/1    1.07100
+        6/1    1.06821
+        7/1    1.09225
+        8/1    1.06421
+        9/1    1.04650
+       10/1    1.06694
+       11/1    1.04643
+       12/1    1.07850
+       13/1    1.04882
+       14/1    1.05440
+       15/1    1.07672
+       16/1    1.05647
+       17/1    1.06046
+       18/1    1.07421
+       19/1    1.07155
+       20/1    1.06025
+       21/1    1.07347
+       22/1    1.09625    1.08486 +/- 0.01139
+       23/1    1.07032    1.08001 +/- 0.00817
+       24/1    1.08770    1.08193 +/- 0.00609
+       25/1    1.08727    1.08300 +/- 0.00483
+       26/1    1.07358    1.08143 +/- 0.00425
+       27/1    1.07223    1.08012 +/- 0.00382
+       28/1    1.06632    1.07839 +/- 0.00373
+       29/1    1.08737    1.07939 +/- 0.00344
+       30/1    1.05735    1.07719 +/- 0.00379
+       31/1    1.05863    1.07550 +/- 0.00382
+       32/1    1.06202    1.07438 +/- 0.00366
+       33/1    1.07386    1.07434 +/- 0.00337
+       34/1    1.05379    1.07287 +/- 0.00345
+       35/1    1.06624    1.07243 +/- 0.00324
+       36/1    1.06942    1.07224 +/- 0.00304
+       37/1    1.06600    1.07187 +/- 0.00287
+       38/1    1.05731    1.07106 +/- 0.00283
+       39/1    1.07221    1.07112 +/- 0.00268
+       40/1    1.07471    1.07130 +/- 0.00255
+       41/1    1.06968    1.07123 +/- 0.00242
+       42/1    1.07280    1.07130 +/- 0.00231
+       43/1    1.08113    1.07172 +/- 0.00225
+       44/1    1.08819    1.07241 +/- 0.00226
+       45/1    1.08681    1.07299 +/- 0.00224
+       46/1    1.08195    1.07333 +/- 0.00218
+       47/1    1.08573    1.07379 +/- 0.00215
+       48/1    1.07630    1.07388 +/- 0.00207
+       49/1    1.05918    1.07337 +/- 0.00206
+       50/1    1.06545    1.07311 +/- 0.00201
+       51/1    1.07427    1.07315 +/- 0.00195
+       52/1    1.08782    1.07361 +/- 0.00194
+       53/1    1.08878    1.07406 +/- 0.00193
+       54/1    1.05806    1.07359 +/- 0.00193
+       55/1    1.07090    1.07352 +/- 0.00188
+       56/1    1.08500    1.07384 +/- 0.00185
+       57/1    1.05068    1.07321 +/- 0.00191
+       58/1    1.09828    1.07387 +/- 0.00197
+       59/1    1.08174    1.07407 +/- 0.00193
+       60/1    1.08450    1.07433 +/- 0.00190
+       61/1    1.06466    1.07410 +/- 0.00187
+       62/1    1.05489    1.07364 +/- 0.00188
+       63/1    1.07526    1.07368 +/- 0.00184
+       64/1    1.07199    1.07364 +/- 0.00179
+       65/1    1.06626    1.07347 +/- 0.00176
+       66/1    1.08609    1.07375 +/- 0.00174
+       67/1    1.06732    1.07361 +/- 0.00171
+       68/1    1.07048    1.07355 +/- 0.00168
+       69/1    1.07023    1.07348 +/- 0.00164
+       70/1    1.06753    1.07336 +/- 0.00162
+       71/1    1.06906    1.07328 +/- 0.00159
+       72/1    1.08490    1.07350 +/- 0.00157
+       73/1    1.03251    1.07273 +/- 0.00172
+       74/1    1.08843    1.07302 +/- 0.00172
+       75/1    1.07757    1.07310 +/- 0.00169
+       76/1    1.04372    1.07257 +/- 0.00174
+       77/1    1.08215    1.07274 +/- 0.00172
+       78/1    1.04681    1.07230 +/- 0.00174
+       79/1    1.05269    1.07196 +/- 0.00175
+       80/1    1.06435    1.07184 +/- 0.00172
+       81/1    1.06759    1.07177 +/- 0.00169
+       82/1    1.04503    1.07134 +/- 0.00172
+       83/1    1.09203    1.07166 +/- 0.00173
+       84/1    1.07325    1.07169 +/- 0.00170
+       85/1    1.05974    1.07150 +/- 0.00168
+       86/1    1.08206    1.07166 +/- 0.00166
+       87/1    1.06462    1.07156 +/- 0.00164
+       88/1    1.06183    1.07142 +/- 0.00162
+       89/1    1.07821    1.07152 +/- 0.00160
+       90/1    1.06980    1.07149 +/- 0.00158
+       91/1    1.08033    1.07162 +/- 0.00156
+       92/1    1.06574    1.07153 +/- 0.00154
+       93/1    1.11189    1.07209 +/- 0.00162
+       94/1    1.06121    1.07194 +/- 0.00160
+       95/1    1.05143    1.07167 +/- 0.00161
+       96/1    1.06317    1.07155 +/- 0.00159
+       97/1    1.06996    1.07153 +/- 0.00157
+       98/1    1.08104    1.07166 +/- 0.00155
+       99/1    1.08528    1.07183 +/- 0.00154
+      100/1    1.07714    1.07189 +/- 0.00153
+      101/1    1.06982    1.07187 +/- 0.00151
+      102/1    1.06822    1.07182 +/- 0.00149
+      103/1    1.08277    1.07196 +/- 0.00148
+      104/1    1.07096    1.07194 +/- 0.00146
+      105/1    1.06058    1.07181 +/- 0.00145
+      106/1    1.07760    1.07188 +/- 0.00143
+      107/1    1.06466    1.07179 +/- 0.00142
+      108/1    1.05688    1.07162 +/- 0.00141
+      109/1    1.08549    1.07178 +/- 0.00140
+      110/1    1.06342    1.07169 +/- 0.00139
+      111/1    1.08257    1.07181 +/- 0.00138
+      112/1    1.06200    1.07170 +/- 0.00137
+      113/1    1.07624    1.07175 +/- 0.00136
+      114/1    1.06369    1.07166 +/- 0.00135
+      115/1    1.08066    1.07176 +/- 0.00133
+      116/1    1.06589    1.07170 +/- 0.00132
+      117/1    1.04948    1.07147 +/- 0.00133
+      118/1    1.06715    1.07142 +/- 0.00132
+      119/1    1.06943    1.07140 +/- 0.00130
+      120/1    1.07245    1.07141 +/- 0.00129
+ Creating state point statepoint.120.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 9.5038e+00 seconds
+   Reading cross sections          = 8.6983e+00 seconds
+ Total time in simulation          = 2.7620e+03 seconds
+   Time in transport only          = 2.6783e+03 seconds
+   Time in inactive batches        = 4.1385e+02 seconds
+   Time in active batches          = 2.3481e+03 seconds
+   Time synchronizing fission bank = 1.4087e-01 seconds
+     Sampling source sites         = 1.2232e-01 seconds
+     SEND/RECV source sites        = 1.6822e-02 seconds
+   Time accumulating tallies       = 8.2657e+01 seconds
+ Total time for finalization       = 3.2485e+01 seconds
+ Total time elapsed                = 2.8139e+03 seconds
+ Calculation Rate (inactive)       = 483.268 particles/second
+ Calculation Rate (active)         = 425.874 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.07033 +/- 0.00110
+ k-effective (Track-length)  = 1.07141 +/- 0.00129
+ k-effective (Absorption)    = 1.07093 +/- 0.00099
+ Combined k-effective        = 1.07081 +/- 0.00086
+ Leakage Fraction            = 0.00192 +/- 0.00004
+
+xF from UF4: 0.11415107286845548
+Fissionable mass in salt cell: 16444.776104844826
+Sum check: 1.0000161508617667
+poison ao: 0.0
+typ: 0 , row: 0 ,  angle: 0
+typ: 1 , row: 1 ,  angle: 7.5
+typ: 2 , row: 2 ,  angle: 15.0
+typ: 3 , row: 3 ,  angle: 22.5
+typ: 0 , row: 4 ,  angle: 30.0
+typ: 1 , row: 5 ,  angle: 37.5
+typ: 2 , row: 6 ,  angle: 45.0
+typ: 3 , row: 7 ,  angle: 52.5
+typ: 0 , row: 8 ,  angle: 60.0
+typ: 1 , row: 9 ,  angle: 67.5
+typ: 2 , row: 10 ,  angle: 75.0
+typ: 3 , row: 11 ,  angle: 82.5
+typ: 0 , row: 12 ,  angle: 90.0
+typ: 1 , row: 13 ,  angle: 97.5
+[m9-53-4.rc.byu.edu:28335] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2019 MIT and OpenMC contributors
+           License | http://openmc.readthedocs.io/en/latest/license.html
+           Version | 0.11.0
+         Date/Time | 2022-11-14 14:07:24
+     MPI Processes | 1
+    OpenMP Threads | 28
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ar36 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ Reading Ar38 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r38.h5
+ Reading Ar40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r40.h5
+ Reading Pb204 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b204.h5
+ Reading Pb206 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b206.h5
+ Reading Pb207 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b207.h5
+ Reading Pb208 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b208.h5
+ Reading Ni58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i58.h5
+ Reading Ni60 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i60.h5
+ Reading Ni61 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i61.h5
+ Reading Ni62 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i62.h5
+ Reading Ni64 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i64.h5
+ Reading Cr50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r50.h5
+ Reading Cr52 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r52.h5
+ Reading Cr53 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r53.h5
+ Reading Cr54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r54.h5
+ Reading Mo100 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o100.h5
+ Reading Mo92 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o92.h5
+ Reading Mo94 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o94.h5
+ Reading Mo95 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o95.h5
+ Reading Mo96 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o96.h5
+ Reading Mo97 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o97.h5
+ Reading Mo98 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o98.h5
+ Reading Fe54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e54.h5
+ Reading Fe56 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e56.h5
+ Reading Fe57 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e57.h5
+ Reading Fe58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e58.h5
+ Reading Si28 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i28.h5
+ Reading Si29 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i29.h5
+ Reading Si30 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i30.h5
+ Reading Mn55 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ n55.h5
+ Reading C0 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ 0.h5
+ Reading Co59 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ o59.h5
+ Reading W180 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 180.h5
+ Reading W182 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 182.h5
+ Reading W183 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 183.h5
+ Reading W184 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 184.h5
+ Reading W186 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 186.h5
+ Reading Al27 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ l27.h5
+ Reading B10 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 10.h5
+ Reading B11 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 11.h5
+ Reading Nb93 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ b93.h5
+ Reading Ti46 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i46.h5
+ Reading Ti47 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i47.h5
+ Reading Ti48 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i48.h5
+ Reading Ti49 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i49.h5
+ Reading Ti50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i50.h5
+ Reading Li6 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i6.h5
+ Reading Li7 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i7.h5
+ Reading Na23 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ a23.h5
+ Reading K39 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 39.h5
+ Reading K40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 40.h5
+ Reading K41 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 41.h5
+ Reading F19 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ 19.h5
+ Reading U233 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/U
+ 233.h5
+ Reading Cu63 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u63.h5
+ Reading Cu65 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u65.h5
+ Reading N14 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 14.h5
+ Reading N15 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 15.h5
+ Maximum neutron transport energy: 20000000.000000 eV for Ar36
+ Minimum neutron data temperature: 900.000000 K
+ Maximum neutron data temperature: 900.000000 K
+ Reading tallies XML file...
+ Writing summary.h5 file...
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.00484
+        2/1    1.03779
+        3/1    1.05790
+        4/1    1.06196
+        5/1    1.08038
+        6/1    1.03836
+        7/1    1.06385
+        8/1    1.08267
+        9/1    1.06466
+       10/1    1.05496
+       11/1    1.06328
+       12/1    1.09469
+       13/1    1.06706
+       14/1    1.06469
+       15/1    1.09179
+       16/1    1.06809
+       17/1    1.07576
+       18/1    1.07528
+       19/1    1.06707
+       20/1    1.07193
+       21/1    1.08767
+       22/1    1.07225    1.07996 +/- 0.00771
+       23/1    1.04284    1.06759 +/- 0.01315
+       24/1    1.09463    1.07435 +/- 0.01150
+       25/1    1.05457    1.07039 +/- 0.00974
+       26/1    1.09560    1.07459 +/- 0.00900
+       27/1    1.05820    1.07225 +/- 0.00796
+       28/1    1.04635    1.06901 +/- 0.00761
+       29/1    1.07958    1.07019 +/- 0.00682
+       30/1    1.08317    1.07149 +/- 0.00623
+       31/1    1.06257    1.07067 +/- 0.00570
+       32/1    1.05172    1.06910 +/- 0.00543
+       33/1    1.06248    1.06859 +/- 0.00503
+       34/1    1.06994    1.06868 +/- 0.00465
+       35/1    1.08960    1.07008 +/- 0.00455
+       36/1    1.07317    1.07027 +/- 0.00426
+       37/1    1.07008    1.07026 +/- 0.00400
+       38/1    1.04892    1.06907 +/- 0.00396
+       39/1    1.06857    1.06905 +/- 0.00374
+       40/1    1.08629    1.06991 +/- 0.00365
+       41/1    1.06622    1.06973 +/- 0.00348
+       42/1    1.08190    1.07029 +/- 0.00336
+       43/1    1.05437    1.06959 +/- 0.00329
+       44/1    1.09241    1.07055 +/- 0.00329
+       45/1    1.07555    1.07075 +/- 0.00316
+       46/1    1.08009    1.07110 +/- 0.00306
+       47/1    1.04827    1.07026 +/- 0.00306
+       48/1    1.09048    1.07098 +/- 0.00304
+       49/1    1.06752    1.07086 +/- 0.00293
+       50/1    1.07469    1.07099 +/- 0.00284
+       51/1    1.06763    1.07088 +/- 0.00275
+       52/1    1.06531    1.07071 +/- 0.00266
+       53/1    1.06318    1.07048 +/- 0.00259
+       54/1    1.06497    1.07032 +/- 0.00252
+       55/1    1.08411    1.07071 +/- 0.00248
+       56/1    1.06998    1.07069 +/- 0.00241
+       57/1    1.07437    1.07079 +/- 0.00234
+       58/1    1.07101    1.07080 +/- 0.00228
+       59/1    1.07679    1.07095 +/- 0.00223
+       60/1    1.06352    1.07076 +/- 0.00218
+       61/1    1.07650    1.07090 +/- 0.00213
+       62/1    1.05888    1.07062 +/- 0.00210
+       63/1    1.03905    1.06988 +/- 0.00218
+       64/1    1.07529    1.07001 +/- 0.00213
+       65/1    1.07476    1.07011 +/- 0.00208
+       66/1    1.09016    1.07055 +/- 0.00209
+       67/1    1.08268    1.07081 +/- 0.00206
+       68/1    1.08065    1.07101 +/- 0.00202
+       69/1    1.09050    1.07141 +/- 0.00202
+       70/1    1.08479    1.07168 +/- 0.00200
+       71/1    1.08034    1.07185 +/- 0.00197
+       72/1    1.06985    1.07181 +/- 0.00193
+       73/1    1.06555    1.07169 +/- 0.00190
+       74/1    1.08609    1.07196 +/- 0.00188
+       75/1    1.08700    1.07223 +/- 0.00186
+       76/1    1.06615    1.07212 +/- 0.00183
+       77/1    1.07434    1.07216 +/- 0.00180
+       78/1    1.07016    1.07213 +/- 0.00177
+       79/1    1.08933    1.07242 +/- 0.00177
+       80/1    1.05562    1.07214 +/- 0.00176
+       81/1    1.06300    1.07199 +/- 0.00174
+       82/1    1.04610    1.07157 +/- 0.00176
+       83/1    1.07007    1.07155 +/- 0.00173
+       84/1    1.06832    1.07150 +/- 0.00170
+       85/1    1.06434    1.07139 +/- 0.00168
+       86/1    1.06970    1.07136 +/- 0.00165
+       87/1    1.08738    1.07160 +/- 0.00165
+       88/1    1.07859    1.07170 +/- 0.00163
+       89/1    1.07202    1.07171 +/- 0.00160
+       90/1    1.07944    1.07182 +/- 0.00158
+       91/1    1.05122    1.07153 +/- 0.00159
+       92/1    1.06215    1.07140 +/- 0.00157
+       93/1    1.08161    1.07154 +/- 0.00156
+       94/1    1.09063    1.07179 +/- 0.00156
+       95/1    1.07123    1.07179 +/- 0.00153
+       96/1    1.06767    1.07173 +/- 0.00152
+       97/1    1.05758    1.07155 +/- 0.00151
+       98/1    1.08179    1.07168 +/- 0.00149
+       99/1    1.08955    1.07191 +/- 0.00149
+      100/1    1.05224    1.07166 +/- 0.00149
+      101/1    1.06516    1.07158 +/- 0.00148
+      102/1    1.07391    1.07161 +/- 0.00146
+      103/1    1.06381    1.07151 +/- 0.00144
+      104/1    1.06048    1.07138 +/- 0.00143
+      105/1    1.06842    1.07135 +/- 0.00142
+      106/1    1.07275    1.07136 +/- 0.00140
+      107/1    1.06820    1.07133 +/- 0.00138
+      108/1    1.05939    1.07119 +/- 0.00138
+      109/1    1.07827    1.07127 +/- 0.00136
+      110/1    1.08564    1.07143 +/- 0.00136
+      111/1    1.05573    1.07126 +/- 0.00135
+      112/1    1.07681    1.07132 +/- 0.00134
+      113/1    1.05886    1.07119 +/- 0.00133
+      114/1    1.07291    1.07120 +/- 0.00132
+      115/1    1.08301    1.07133 +/- 0.00131
+      116/1    1.05560    1.07116 +/- 0.00131
+      117/1    1.09891    1.07145 +/- 0.00132
+      118/1    1.08804    1.07162 +/- 0.00132
+      119/1    1.07454    1.07165 +/- 0.00131
+      120/1    1.06158    1.07155 +/- 0.00130
+ Creating state point statepoint.120.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 1.3228e+01 seconds
+   Reading cross sections          = 1.2733e+01 seconds
+ Total time in simulation          = 2.7917e+03 seconds
+   Time in transport only          = 2.6998e+03 seconds
+   Time in inactive batches        = 4.1463e+02 seconds
+   Time in active batches          = 2.3770e+03 seconds
+   Time synchronizing fission bank = 1.5827e-01 seconds
+     Sampling source sites         = 1.3785e-01 seconds
+     SEND/RECV source sites        = 1.8556e-02 seconds
+   Time accumulating tallies       = 9.0790e+01 seconds
+ Total time for finalization       = 3.3215e+01 seconds
+ Total time elapsed                = 2.8480e+03 seconds
+ Calculation Rate (inactive)       = 482.354 particles/second
+ Calculation Rate (active)         = 420.690 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.07209 +/- 0.00131
+ k-effective (Track-length)  = 1.07155 +/- 0.00130
+ k-effective (Absorption)    = 1.07172 +/- 0.00111
+ Combined k-effective        = 1.07166 +/- 0.00096
+ Leakage Fraction            = 0.00192 +/- 0.00004
+
+xF from UF4: 0.11415107286845548
+Fissionable mass in salt cell: 16444.776104844826
+Sum check: 1.0000161508617667
+poison ao: 0.0
+typ: 0 , row: 0 ,  angle: 0
+typ: 1 , row: 1 ,  angle: 7.5
+typ: 2 , row: 2 ,  angle: 15.0
+typ: 3 , row: 3 ,  angle: 22.5
+typ: 0 , row: 4 ,  angle: 30.0
+typ: 1 , row: 5 ,  angle: 37.5
+typ: 2 , row: 6 ,  angle: 45.0
+typ: 3 , row: 7 ,  angle: 52.5
+typ: 0 , row: 8 ,  angle: 60.0
+typ: 1 , row: 9 ,  angle: 67.5
+typ: 2 , row: 10 ,  angle: 75.0
+typ: 3 , row: 11 ,  angle: 82.5
+typ: 0 , row: 12 ,  angle: 90.0
+typ: 1 , row: 13 ,  angle: 97.5
+[m9-53-4.rc.byu.edu:07590] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2019 MIT and OpenMC contributors
+           License | http://openmc.readthedocs.io/en/latest/license.html
+           Version | 0.11.0
+         Date/Time | 2022-11-14 14:55:03
+     MPI Processes | 1
+    OpenMP Threads | 28
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ar36 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ Reading Ar38 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r38.h5
+ Reading Ar40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r40.h5
+ Reading Pb204 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b204.h5
+ Reading Pb206 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b206.h5
+ Reading Pb207 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b207.h5
+ Reading Pb208 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b208.h5
+ Reading Ni58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i58.h5
+ Reading Ni60 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i60.h5
+ Reading Ni61 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i61.h5
+ Reading Ni62 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i62.h5
+ Reading Ni64 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i64.h5
+ Reading Cr50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r50.h5
+ Reading Cr52 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r52.h5
+ Reading Cr53 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r53.h5
+ Reading Cr54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r54.h5
+ Reading Mo100 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o100.h5
+ Reading Mo92 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o92.h5
+ Reading Mo94 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o94.h5
+ Reading Mo95 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o95.h5
+ Reading Mo96 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o96.h5
+ Reading Mo97 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o97.h5
+ Reading Mo98 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o98.h5
+ Reading Fe54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e54.h5
+ Reading Fe56 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e56.h5
+ Reading Fe57 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e57.h5
+ Reading Fe58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e58.h5
+ Reading Si28 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i28.h5
+ Reading Si29 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i29.h5
+ Reading Si30 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i30.h5
+ Reading Mn55 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ n55.h5
+ Reading C0 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ 0.h5
+ Reading Co59 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ o59.h5
+ Reading W180 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 180.h5
+ Reading W182 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 182.h5
+ Reading W183 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 183.h5
+ Reading W184 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 184.h5
+ Reading W186 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 186.h5
+ Reading Al27 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ l27.h5
+ Reading B10 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 10.h5
+ Reading B11 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 11.h5
+ Reading Nb93 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ b93.h5
+ Reading Ti46 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i46.h5
+ Reading Ti47 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i47.h5
+ Reading Ti48 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i48.h5
+ Reading Ti49 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i49.h5
+ Reading Ti50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i50.h5
+ Reading Li6 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i6.h5
+ Reading Li7 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i7.h5
+ Reading Na23 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ a23.h5
+ Reading K39 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 39.h5
+ Reading K40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 40.h5
+ Reading K41 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 41.h5
+ Reading F19 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ 19.h5
+ Reading U233 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/U
+ 233.h5
+ Reading Cu63 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u63.h5
+ Reading Cu65 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u65.h5
+ Reading N14 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 14.h5
+ Reading N15 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 15.h5
+ Maximum neutron transport energy: 20000000.000000 eV for Ar36
+ Minimum neutron data temperature: 900.000000 K
+ Maximum neutron data temperature: 900.000000 K
+ Reading tallies XML file...
+ Writing summary.h5 file...
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.02016
+        2/1    1.02909
+        3/1    1.06367
+        4/1    1.06605
+        5/1    1.04800
+        6/1    1.06377
+        7/1    1.07068
+        8/1    1.05956
+        9/1    1.05269
+       10/1    1.03949
+       11/1    1.07835
+       12/1    1.06222
+       13/1    1.04989
+       14/1    1.05847
+       15/1    1.05637
+       16/1    1.06032
+       17/1    1.06380
+       18/1    1.06078
+       19/1    1.04918
+       20/1    1.07849
+       21/1    1.05939
+       22/1    1.10249    1.08094 +/- 0.02155
+       23/1    1.06690    1.07626 +/- 0.01329
+       24/1    1.06275    1.07288 +/- 0.00999
+       25/1    1.07487    1.07328 +/- 0.00775
+       26/1    1.08400    1.07507 +/- 0.00657
+       27/1    1.06953    1.07428 +/- 0.00561
+       28/1    1.07278    1.07409 +/- 0.00486
+       29/1    1.06847    1.07347 +/- 0.00433
+       30/1    1.04701    1.07082 +/- 0.00469
+       31/1    1.07012    1.07076 +/- 0.00425
+       32/1    1.07191    1.07085 +/- 0.00388
+       33/1    1.09813    1.07295 +/- 0.00414
+       34/1    1.09826    1.07476 +/- 0.00424
+       35/1    1.06870    1.07435 +/- 0.00396
+       36/1    1.06157    1.07355 +/- 0.00379
+       37/1    1.06041    1.07278 +/- 0.00365
+       38/1    1.08610    1.07352 +/- 0.00352
+       39/1    1.06768    1.07321 +/- 0.00334
+       40/1    1.08517    1.07381 +/- 0.00322
+       41/1    1.06080    1.07319 +/- 0.00313
+       42/1    1.07536    1.07329 +/- 0.00299
+       43/1    1.06907    1.07311 +/- 0.00286
+       44/1    1.06619    1.07282 +/- 0.00275
+       45/1    1.03733    1.07140 +/- 0.00300
+       46/1    1.07280    1.07145 +/- 0.00288
+       47/1    1.07827    1.07171 +/- 0.00278
+       48/1    1.06947    1.07163 +/- 0.00268
+       49/1    1.07900    1.07188 +/- 0.00260
+       50/1    1.08697    1.07238 +/- 0.00256
+       51/1    1.06910    1.07228 +/- 0.00248
+       52/1    1.08194    1.07258 +/- 0.00242
+       53/1    1.07484    1.07265 +/- 0.00235
+       54/1    1.08924    1.07314 +/- 0.00233
+       55/1    1.07114    1.07308 +/- 0.00226
+       56/1    1.06744    1.07292 +/- 0.00220
+       57/1    1.06261    1.07264 +/- 0.00216
+       58/1    1.08528    1.07298 +/- 0.00213
+       59/1    1.08749    1.07335 +/- 0.00211
+       60/1    1.05913    1.07299 +/- 0.00209
+       61/1    1.08158    1.07320 +/- 0.00204
+       62/1    1.06337    1.07297 +/- 0.00201
+       63/1    1.08124    1.07316 +/- 0.00197
+       64/1    1.06201    1.07291 +/- 0.00194
+       65/1    1.07264    1.07290 +/- 0.00190
+       66/1    1.06018    1.07262 +/- 0.00188
+       67/1    1.08284    1.07284 +/- 0.00185
+       68/1    1.05632    1.07250 +/- 0.00184
+       69/1    1.07606    1.07257 +/- 0.00181
+       70/1    1.08364    1.07279 +/- 0.00178
+       71/1    1.06874    1.07271 +/- 0.00175
+       72/1    1.06416    1.07255 +/- 0.00172
+       73/1    1.07060    1.07251 +/- 0.00169
+       74/1    1.08370    1.07272 +/- 0.00167
+       75/1    1.07833    1.07282 +/- 0.00165
+       76/1    1.06389    1.07266 +/- 0.00162
+       77/1    1.08064    1.07280 +/- 0.00160
+       78/1    1.07544    1.07285 +/- 0.00157
+       79/1    1.05718    1.07258 +/- 0.00157
+       80/1    1.07228    1.07258 +/- 0.00154
+       81/1    1.06446    1.07244 +/- 0.00152
+       82/1    1.07390    1.07247 +/- 0.00150
+       83/1    1.06067    1.07228 +/- 0.00149
+       84/1    1.03330    1.07167 +/- 0.00159
+       85/1    1.06808    1.07161 +/- 0.00156
+       86/1    1.06326    1.07149 +/- 0.00154
+       87/1    1.09880    1.07190 +/- 0.00157
+       88/1    1.06847    1.07185 +/- 0.00155
+       89/1    1.06307    1.07172 +/- 0.00153
+       90/1    1.05509    1.07148 +/- 0.00153
+       91/1    1.08884    1.07172 +/- 0.00153
+       92/1    1.06879    1.07168 +/- 0.00151
+       93/1    1.07808    1.07177 +/- 0.00149
+       94/1    1.06587    1.07169 +/- 0.00147
+       95/1    1.04967    1.07140 +/- 0.00148
+       96/1    1.05910    1.07124 +/- 0.00147
+       97/1    1.06128    1.07111 +/- 0.00146
+       98/1    1.07163    1.07111 +/- 0.00144
+       99/1    1.07569    1.07117 +/- 0.00142
+      100/1    1.05992    1.07103 +/- 0.00141
+      101/1    1.07073    1.07103 +/- 0.00139
+      102/1    1.06067    1.07090 +/- 0.00138
+      103/1    1.06357    1.07081 +/- 0.00137
+      104/1    1.05671    1.07064 +/- 0.00136
+      105/1    1.07042    1.07064 +/- 0.00134
+      106/1    1.09081    1.07088 +/- 0.00135
+      107/1    1.05747    1.07072 +/- 0.00134
+      108/1    1.06650    1.07067 +/- 0.00133
+      109/1    1.05720    1.07052 +/- 0.00132
+      110/1    1.05315    1.07033 +/- 0.00132
+      111/1    1.07833    1.07042 +/- 0.00131
+      112/1    1.08698    1.07060 +/- 0.00131
+      113/1    1.06194    1.07050 +/- 0.00130
+      114/1    1.07492    1.07055 +/- 0.00128
+      115/1    1.06438    1.07049 +/- 0.00127
+      116/1    1.04146    1.07018 +/- 0.00129
+      117/1    1.06763    1.07016 +/- 0.00128
+      118/1    1.08396    1.07030 +/- 0.00128
+      119/1    1.07728    1.07037 +/- 0.00127
+      120/1    1.05679    1.07023 +/- 0.00126
+ Creating state point statepoint.120.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 1.0102e+01 seconds
+   Reading cross sections          = 9.6013e+00 seconds
+ Total time in simulation          = 2.7015e+03 seconds
+   Time in transport only          = 2.6177e+03 seconds
+   Time in inactive batches        = 4.0108e+02 seconds
+   Time in active batches          = 2.3004e+03 seconds
+   Time synchronizing fission bank = 1.4488e-01 seconds
+     Sampling source sites         = 1.2591e-01 seconds
+     SEND/RECV source sites        = 1.7172e-02 seconds
+   Time accumulating tallies       = 8.2761e+01 seconds
+ Total time for finalization       = 3.0719e+01 seconds
+ Total time elapsed                = 2.7523e+03 seconds
+ Calculation Rate (inactive)       = 498.650 particles/second
+ Calculation Rate (active)         = 434.704 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.07116 +/- 0.00110
+ k-effective (Track-length)  = 1.07023 +/- 0.00126
+ k-effective (Absorption)    = 1.07132 +/- 0.00095
+ Combined k-effective        = 1.07112 +/- 0.00082
+ Leakage Fraction            = 0.00181 +/- 0.00004
+
+xF from UF4: 0.11415107286845548
+Fissionable mass in salt cell: 16444.776104844826
+Sum check: 1.0000161508617667
+poison ao: 0.0
+typ: 0 , row: 0 ,  angle: 0
+typ: 1 , row: 1 ,  angle: 7.5
+typ: 2 , row: 2 ,  angle: 15.0
+typ: 3 , row: 3 ,  angle: 22.5
+typ: 0 , row: 4 ,  angle: 30.0
+typ: 1 , row: 5 ,  angle: 37.5
+typ: 2 , row: 6 ,  angle: 45.0
+typ: 3 , row: 7 ,  angle: 52.5
+typ: 0 , row: 8 ,  angle: 60.0
+typ: 1 , row: 9 ,  angle: 67.5
+typ: 2 , row: 10 ,  angle: 75.0
+typ: 3 , row: 11 ,  angle: 82.5
+typ: 0 , row: 12 ,  angle: 90.0
+typ: 1 , row: 13 ,  angle: 97.5
+[m9-53-4.rc.byu.edu:21129] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2019 MIT and OpenMC contributors
+           License | http://openmc.readthedocs.io/en/latest/license.html
+           Version | 0.11.0
+         Date/Time | 2022-11-14 15:41:12
+     MPI Processes | 1
+    OpenMP Threads | 28
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ar36 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ Reading Ar38 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r38.h5
+ Reading Ar40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r40.h5
+ Reading Pb204 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b204.h5
+ Reading Pb206 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b206.h5
+ Reading Pb207 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b207.h5
+ Reading Pb208 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b208.h5
+ Reading Ni58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i58.h5
+ Reading Ni60 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i60.h5
+ Reading Ni61 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i61.h5
+ Reading Ni62 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i62.h5
+ Reading Ni64 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i64.h5
+ Reading Cr50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r50.h5
+ Reading Cr52 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r52.h5
+ Reading Cr53 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r53.h5
+ Reading Cr54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r54.h5
+ Reading Mo100 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o100.h5
+ Reading Mo92 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o92.h5
+ Reading Mo94 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o94.h5
+ Reading Mo95 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o95.h5
+ Reading Mo96 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o96.h5
+ Reading Mo97 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o97.h5
+ Reading Mo98 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o98.h5
+ Reading Fe54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e54.h5
+ Reading Fe56 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e56.h5
+ Reading Fe57 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e57.h5
+ Reading Fe58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e58.h5
+ Reading Si28 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i28.h5
+ Reading Si29 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i29.h5
+ Reading Si30 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i30.h5
+ Reading Mn55 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ n55.h5
+ Reading C0 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ 0.h5
+ Reading Co59 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ o59.h5
+ Reading W180 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 180.h5
+ Reading W182 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 182.h5
+ Reading W183 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 183.h5
+ Reading W184 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 184.h5
+ Reading W186 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 186.h5
+ Reading Al27 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ l27.h5
+ Reading B10 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 10.h5
+ Reading B11 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 11.h5
+ Reading Nb93 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ b93.h5
+ Reading Ti46 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i46.h5
+ Reading Ti47 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i47.h5
+ Reading Ti48 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i48.h5
+ Reading Ti49 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i49.h5
+ Reading Ti50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i50.h5
+ Reading Li6 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i6.h5
+ Reading Li7 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i7.h5
+ Reading Na23 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ a23.h5
+ Reading K39 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 39.h5
+ Reading K40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 40.h5
+ Reading K41 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 41.h5
+ Reading F19 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ 19.h5
+ Reading U233 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/U
+ 233.h5
+ Reading Cu63 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u63.h5
+ Reading Cu65 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u65.h5
+ Reading N14 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 14.h5
+ Reading N15 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 15.h5
+ Maximum neutron transport energy: 20000000.000000 eV for Ar36
+ Minimum neutron data temperature: 900.000000 K
+ Maximum neutron data temperature: 900.000000 K
+ Reading tallies XML file...
+ Writing summary.h5 file...
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.01183
+        2/1    1.02167
+        3/1    1.05211
+        4/1    1.07031
+        5/1    1.07629
+        6/1    1.06953
+        7/1    1.05937
+        8/1    1.05216
+        9/1    1.07859
+       10/1    1.06949
+       11/1    1.06033
+       12/1    1.05586
+       13/1    1.08884
+       14/1    1.05030
+       15/1    1.08546
+       16/1    1.08402
+       17/1    1.08116
+       18/1    1.06397
+       19/1    1.09166
+       20/1    1.08286
+       21/1    1.06127
+       22/1    1.05912    1.06020 +/- 0.00107
+       23/1    1.06839    1.06293 +/- 0.00280
+       24/1    1.05639    1.06129 +/- 0.00257
+       25/1    1.07080    1.06319 +/- 0.00275
+       26/1    1.06954    1.06425 +/- 0.00248
+       27/1    1.05859    1.06344 +/- 0.00225
+       28/1    1.07712    1.06515 +/- 0.00259
+       29/1    1.06762    1.06543 +/- 0.00230
+       30/1    1.07511    1.06639 +/- 0.00228
+       31/1    1.05452    1.06532 +/- 0.00232
+       32/1    1.08159    1.06667 +/- 0.00252
+       33/1    1.06801    1.06677 +/- 0.00232
+       34/1    1.08920    1.06838 +/- 0.00268
+       35/1    1.06727    1.06830 +/- 0.00249
+       36/1    1.06195    1.06791 +/- 0.00237
+       37/1    1.06641    1.06782 +/- 0.00222
+       38/1    1.06618    1.06773 +/- 0.00210
+       39/1    1.08263    1.06851 +/- 0.00214
+       40/1    1.07108    1.06864 +/- 0.00203
+       41/1    1.06711    1.06857 +/- 0.00193
+       42/1    1.07972    1.06907 +/- 0.00191
+       43/1    1.06993    1.06911 +/- 0.00183
+       44/1    1.09423    1.07016 +/- 0.00204
+       45/1    1.08756    1.07085 +/- 0.00207
+       46/1    1.05292    1.07016 +/- 0.00211
+       47/1    1.04891    1.06938 +/- 0.00218
+       48/1    1.06342    1.06916 +/- 0.00211
+       49/1    1.07159    1.06925 +/- 0.00204
+       50/1    1.07350    1.06939 +/- 0.00197
+       51/1    1.09032    1.07006 +/- 0.00202
+       52/1    1.09328    1.07079 +/- 0.00209
+       53/1    1.04905    1.07013 +/- 0.00213
+       54/1    1.06892    1.07010 +/- 0.00207
+       55/1    1.06278    1.06989 +/- 0.00202
+       56/1    1.06925    1.06987 +/- 0.00196
+       57/1    1.05907    1.06958 +/- 0.00193
+       58/1    1.06414    1.06943 +/- 0.00188
+       59/1    1.06164    1.06923 +/- 0.00184
+       60/1    1.07684    1.06942 +/- 0.00181
+       61/1    1.06559    1.06933 +/- 0.00177
+       62/1    1.07005    1.06935 +/- 0.00172
+       63/1    1.06295    1.06920 +/- 0.00169
+       64/1    1.06671    1.06914 +/- 0.00165
+       65/1    1.08186    1.06943 +/- 0.00164
+       66/1    1.07429    1.06953 +/- 0.00161
+       67/1    1.06659    1.06947 +/- 0.00157
+       68/1    1.06977    1.06947 +/- 0.00154
+       69/1    1.06127    1.06931 +/- 0.00152
+       70/1    1.10546    1.07003 +/- 0.00165
+       71/1    1.06126    1.06986 +/- 0.00163
+       72/1    1.09805    1.07040 +/- 0.00169
+       73/1    1.07562    1.07050 +/- 0.00166
+       74/1    1.07589    1.07060 +/- 0.00163
+       75/1    1.06944    1.07058 +/- 0.00160
+       76/1    1.07784    1.07071 +/- 0.00158
+       77/1    1.07553    1.07079 +/- 0.00155
+       78/1    1.07597    1.07088 +/- 0.00153
+       79/1    1.08311    1.07109 +/- 0.00152
+       80/1    1.07744    1.07119 +/- 0.00149
+       81/1    1.08439    1.07141 +/- 0.00148
+       82/1    1.06764    1.07135 +/- 0.00146
+       83/1    1.07323    1.07138 +/- 0.00144
+       84/1    1.06505    1.07128 +/- 0.00142
+       85/1    1.06033    1.07111 +/- 0.00141
+       86/1    1.05887    1.07093 +/- 0.00140
+       87/1    1.06268    1.07080 +/- 0.00138
+       88/1    1.06289    1.07069 +/- 0.00137
+       89/1    1.07208    1.07071 +/- 0.00135
+       90/1    1.06794    1.07067 +/- 0.00133
+       91/1    1.07622    1.07075 +/- 0.00131
+       92/1    1.04359    1.07037 +/- 0.00135
+       93/1    1.04534    1.07003 +/- 0.00137
+       94/1    1.06318    1.06993 +/- 0.00136
+       95/1    1.07105    1.06995 +/- 0.00134
+       96/1    1.07264    1.06998 +/- 0.00132
+       97/1    1.05176    1.06975 +/- 0.00133
+       98/1    1.09101    1.07002 +/- 0.00134
+       99/1    1.06946    1.07001 +/- 0.00132
+      100/1    1.07193    1.07004 +/- 0.00130
+      101/1    1.07049    1.07004 +/- 0.00129
+      102/1    1.04136    1.06969 +/- 0.00132
+      103/1    1.06934    1.06969 +/- 0.00130
+      104/1    1.05920    1.06956 +/- 0.00129
+      105/1    1.05265    1.06936 +/- 0.00129
+      106/1    1.05721    1.06922 +/- 0.00129
+      107/1    1.07403    1.06928 +/- 0.00127
+      108/1    1.05884    1.06916 +/- 0.00126
+      109/1    1.08658    1.06936 +/- 0.00126
+      110/1    1.05350    1.06918 +/- 0.00126
+      111/1    1.06887    1.06918 +/- 0.00125
+      112/1    1.07312    1.06922 +/- 0.00124
+      113/1    1.07210    1.06925 +/- 0.00122
+      114/1    1.06042    1.06916 +/- 0.00121
+      115/1    1.06432    1.06911 +/- 0.00120
+      116/1    1.05688    1.06898 +/- 0.00120
+      117/1    1.06052    1.06889 +/- 0.00119
+      118/1    1.07353    1.06894 +/- 0.00118
+      119/1    1.08264    1.06908 +/- 0.00117
+      120/1    1.08171    1.06920 +/- 0.00117
+ Creating state point statepoint.120.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 9.9032e+00 seconds
+   Reading cross sections          = 9.3631e+00 seconds
+ Total time in simulation          = 2.5780e+03 seconds
+   Time in transport only          = 2.4980e+03 seconds
+   Time in inactive batches        = 3.8279e+02 seconds
+   Time in active batches          = 2.1952e+03 seconds
+   Time synchronizing fission bank = 1.4163e-01 seconds
+     Sampling source sites         = 1.2245e-01 seconds
+     SEND/RECV source sites        = 1.7392e-02 seconds
+   Time accumulating tallies       = 7.8978e+01 seconds
+ Total time for finalization       = 3.5321e+01 seconds
+ Total time elapsed                = 2.6328e+03 seconds
+ Calculation Rate (inactive)       = 522.479 particles/second
+ Calculation Rate (active)         = 455.531 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.06994 +/- 0.00105
+ k-effective (Track-length)  = 1.06920 +/- 0.00117
+ k-effective (Absorption)    = 1.07069 +/- 0.00113
+ Combined k-effective        = 1.07014 +/- 0.00088
+ Leakage Fraction            = 0.00187 +/- 0.00004
+
+xF from UF4: 0.11415107286845548
+Fissionable mass in salt cell: 16444.776104844826
+Sum check: 1.0000161508617667
+poison ao: 0.0
+typ: 0 , row: 0 ,  angle: 0
+typ: 1 , row: 1 ,  angle: 7.5
+typ: 2 , row: 2 ,  angle: 15.0
+typ: 3 , row: 3 ,  angle: 22.5
+typ: 0 , row: 4 ,  angle: 30.0
+typ: 1 , row: 5 ,  angle: 37.5
+typ: 2 , row: 6 ,  angle: 45.0
+typ: 3 , row: 7 ,  angle: 52.5
+typ: 0 , row: 8 ,  angle: 60.0
+typ: 1 , row: 9 ,  angle: 67.5
+typ: 2 , row: 10 ,  angle: 75.0
+typ: 3 , row: 11 ,  angle: 82.5
+typ: 0 , row: 12 ,  angle: 90.0
+typ: 1 , row: 13 ,  angle: 97.5
+[m9-53-4.rc.byu.edu:31854] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2019 MIT and OpenMC contributors
+           License | http://openmc.readthedocs.io/en/latest/license.html
+           Version | 0.11.0
+         Date/Time | 2022-11-14 16:25:15
+     MPI Processes | 1
+    OpenMP Threads | 28
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ar36 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ Reading Ar38 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r38.h5
+ Reading Ar40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r40.h5
+ Reading Pb204 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b204.h5
+ Reading Pb206 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b206.h5
+ Reading Pb207 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b207.h5
+ Reading Pb208 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b208.h5
+ Reading Ni58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i58.h5
+ Reading Ni60 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i60.h5
+ Reading Ni61 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i61.h5
+ Reading Ni62 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i62.h5
+ Reading Ni64 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i64.h5
+ Reading Cr50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r50.h5
+ Reading Cr52 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r52.h5
+ Reading Cr53 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r53.h5
+ Reading Cr54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r54.h5
+ Reading Mo100 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o100.h5
+ Reading Mo92 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o92.h5
+ Reading Mo94 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o94.h5
+ Reading Mo95 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o95.h5
+ Reading Mo96 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o96.h5
+ Reading Mo97 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o97.h5
+ Reading Mo98 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o98.h5
+ Reading Fe54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e54.h5
+ Reading Fe56 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e56.h5
+ Reading Fe57 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e57.h5
+ Reading Fe58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e58.h5
+ Reading Si28 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i28.h5
+ Reading Si29 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i29.h5
+ Reading Si30 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i30.h5
+ Reading Mn55 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ n55.h5
+ Reading C0 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ 0.h5
+ Reading Co59 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ o59.h5
+ Reading W180 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 180.h5
+ Reading W182 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 182.h5
+ Reading W183 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 183.h5
+ Reading W184 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 184.h5
+ Reading W186 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 186.h5
+ Reading Al27 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ l27.h5
+ Reading B10 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 10.h5
+ Reading B11 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 11.h5
+ Reading Nb93 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ b93.h5
+ Reading Ti46 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i46.h5
+ Reading Ti47 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i47.h5
+ Reading Ti48 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i48.h5
+ Reading Ti49 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i49.h5
+ Reading Ti50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i50.h5
+ Reading Li6 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i6.h5
+ Reading Li7 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i7.h5
+ Reading Na23 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ a23.h5
+ Reading K39 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 39.h5
+ Reading K40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 40.h5
+ Reading K41 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 41.h5
+ Reading F19 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ 19.h5
+ Reading U233 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/U
+ 233.h5
+ Reading Cu63 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u63.h5
+ Reading Cu65 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u65.h5
+ Reading N14 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 14.h5
+ Reading N15 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 15.h5
+ Maximum neutron transport energy: 20000000.000000 eV for Ar36
+ Minimum neutron data temperature: 900.000000 K
+ Maximum neutron data temperature: 900.000000 K
+ Reading tallies XML file...
+ Writing summary.h5 file...
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.01362
+        2/1    1.04172
+        3/1    1.05020
+        4/1    1.09483
+        5/1    1.06481
+        6/1    1.06617
+        7/1    1.04664
+        8/1    1.04710
+        9/1    1.05205
+       10/1    1.07911
+       11/1    1.06043
+       12/1    1.06251
+       13/1    1.06204
+       14/1    1.09169
+       15/1    1.07733
+       16/1    1.07486
+       17/1    1.06555
+       18/1    1.10347
+       19/1    1.06196
+       20/1    1.07371
+       21/1    1.06780
+       22/1    1.05962    1.06371 +/- 0.00409
+       23/1    1.06741    1.06495 +/- 0.00267
+       24/1    1.07649    1.06783 +/- 0.00345
+       25/1    1.07809    1.06988 +/- 0.00337
+       26/1    1.06456    1.06900 +/- 0.00289
+       27/1    1.06247    1.06806 +/- 0.00261
+       28/1    1.07912    1.06945 +/- 0.00265
+       29/1    1.07655    1.07024 +/- 0.00247
+       30/1    1.06788    1.07000 +/- 0.00222
+       31/1    1.07690    1.07063 +/- 0.00210
+       32/1    1.06808    1.07041 +/- 0.00193
+       33/1    1.06412    1.06993 +/- 0.00184
+       34/1    1.06636    1.06967 +/- 0.00172
+       35/1    1.08249    1.07053 +/- 0.00182
+       36/1    1.08746    1.07159 +/- 0.00200
+       37/1    1.07536    1.07181 +/- 0.00190
+       38/1    1.07852    1.07218 +/- 0.00183
+       39/1    1.09466    1.07337 +/- 0.00209
+       40/1    1.07780    1.07359 +/- 0.00200
+       41/1    1.08498    1.07413 +/- 0.00198
+       42/1    1.08603    1.07467 +/- 0.00196
+       43/1    1.07828    1.07483 +/- 0.00188
+       44/1    1.05754    1.07411 +/- 0.00194
+       45/1    1.08822    1.07467 +/- 0.00194
+       46/1    1.07745    1.07478 +/- 0.00187
+       47/1    1.09355    1.07547 +/- 0.00193
+       48/1    1.06615    1.07514 +/- 0.00189
+       49/1    1.06015    1.07462 +/- 0.00189
+       50/1    1.07261    1.07456 +/- 0.00183
+       51/1    1.06606    1.07428 +/- 0.00179
+       52/1    1.08008    1.07446 +/- 0.00174
+       53/1    1.08035    1.07464 +/- 0.00170
+       54/1    1.05919    1.07419 +/- 0.00171
+       55/1    1.04651    1.07340 +/- 0.00184
+       56/1    1.05835    1.07298 +/- 0.00184
+       57/1    1.06933    1.07288 +/- 0.00179
+       58/1    1.09150    1.07337 +/- 0.00181
+       59/1    1.05189    1.07282 +/- 0.00185
+       60/1    1.06592    1.07265 +/- 0.00181
+       61/1    1.07414    1.07268 +/- 0.00176
+       62/1    1.10443    1.07344 +/- 0.00188
+       63/1    1.08428    1.07369 +/- 0.00185
+       64/1    1.06128    1.07341 +/- 0.00183
+       65/1    1.09640    1.07392 +/- 0.00186
+       66/1    1.07438    1.07393 +/- 0.00182
+       67/1    1.06673    1.07378 +/- 0.00179
+       68/1    1.05335    1.07335 +/- 0.00180
+       69/1    1.05937    1.07307 +/- 0.00179
+       70/1    1.06778    1.07296 +/- 0.00175
+       71/1    1.07872    1.07307 +/- 0.00172
+       72/1    1.07335    1.07308 +/- 0.00169
+       73/1    1.07681    1.07315 +/- 0.00166
+       74/1    1.07151    1.07312 +/- 0.00163
+       75/1    1.07631    1.07318 +/- 0.00160
+       76/1    1.05799    1.07291 +/- 0.00159
+       77/1    1.04478    1.07241 +/- 0.00164
+       78/1    1.07394    1.07244 +/- 0.00161
+       79/1    1.06118    1.07225 +/- 0.00160
+       80/1    1.05973    1.07204 +/- 0.00158
+       81/1    1.07989    1.07217 +/- 0.00156
+       82/1    1.07902    1.07228 +/- 0.00154
+       83/1    1.07475    1.07232 +/- 0.00152
+       84/1    1.04846    1.07194 +/- 0.00154
+       85/1    1.08089    1.07208 +/- 0.00152
+       86/1    1.07051    1.07206 +/- 0.00150
+       87/1    1.07016    1.07203 +/- 0.00148
+       88/1    1.07595    1.07209 +/- 0.00146
+       89/1    1.07181    1.07208 +/- 0.00143
+       90/1    1.05697    1.07187 +/- 0.00143
+       91/1    1.07328    1.07189 +/- 0.00141
+       92/1    1.04866    1.07156 +/- 0.00143
+       93/1    1.05789    1.07138 +/- 0.00142
+       94/1    1.06928    1.07135 +/- 0.00140
+       95/1    1.05914    1.07119 +/- 0.00139
+       96/1    1.06428    1.07110 +/- 0.00138
+       97/1    1.05973    1.07095 +/- 0.00137
+       98/1    1.05838    1.07079 +/- 0.00136
+       99/1    1.04645    1.07048 +/- 0.00138
+      100/1    1.06225    1.07038 +/- 0.00136
+      101/1    1.06767    1.07034 +/- 0.00135
+      102/1    1.05612    1.07017 +/- 0.00134
+      103/1    1.07213    1.07019 +/- 0.00132
+      104/1    1.06318    1.07011 +/- 0.00131
+      105/1    1.07324    1.07015 +/- 0.00130
+      106/1    1.08204    1.07028 +/- 0.00129
+      107/1    1.04351    1.06998 +/- 0.00131
+      108/1    1.05817    1.06984 +/- 0.00130
+      109/1    1.06787    1.06982 +/- 0.00129
+      110/1    1.07296    1.06986 +/- 0.00127
+      111/1    1.05020    1.06964 +/- 0.00128
+      112/1    1.08031    1.06976 +/- 0.00127
+      113/1    1.09156    1.06999 +/- 0.00128
+      114/1    1.05854    1.06987 +/- 0.00127
+      115/1    1.07361    1.06991 +/- 0.00126
+      116/1    1.07770    1.06999 +/- 0.00125
+      117/1    1.07779    1.07007 +/- 0.00124
+      118/1    1.10304    1.07041 +/- 0.00127
+      119/1    1.05336    1.07023 +/- 0.00127
+      120/1    1.08737    1.07040 +/- 0.00127
+ Creating state point statepoint.120.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 1.0538e+01 seconds
+   Reading cross sections          = 9.7369e+00 seconds
+ Total time in simulation          = 2.6889e+03 seconds
+   Time in transport only          = 2.6118e+03 seconds
+   Time in inactive batches        = 4.0128e+02 seconds
+   Time in active batches          = 2.2876e+03 seconds
+   Time synchronizing fission bank = 1.3951e-01 seconds
+     Sampling source sites         = 1.2096e-01 seconds
+     SEND/RECV source sites        = 1.6762e-02 seconds
+   Time accumulating tallies       = 7.6065e+01 seconds
+ Total time for finalization       = 3.5609e+01 seconds
+ Total time elapsed                = 2.7446e+03 seconds
+ Calculation Rate (inactive)       = 498.401 particles/second
+ Calculation Rate (active)         = 437.139 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.07099 +/- 0.00133
+ k-effective (Track-length)  = 1.07040 +/- 0.00127
+ k-effective (Absorption)    = 1.06984 +/- 0.00116
+ Combined k-effective        = 1.07006 +/- 0.00095
+ Leakage Fraction            = 0.00189 +/- 0.00004
+
+xF from UF4: 0.11415107286845548
+Fissionable mass in salt cell: 16444.776104844826
+Sum check: 1.0000161508617667
+poison ao: 0.0
+typ: 0 , row: 0 ,  angle: 0
+typ: 1 , row: 1 ,  angle: 7.5
+typ: 2 , row: 2 ,  angle: 15.0
+typ: 3 , row: 3 ,  angle: 22.5
+typ: 0 , row: 4 ,  angle: 30.0
+typ: 1 , row: 5 ,  angle: 37.5
+typ: 2 , row: 6 ,  angle: 45.0
+typ: 3 , row: 7 ,  angle: 52.5
+typ: 0 , row: 8 ,  angle: 60.0
+typ: 1 , row: 9 ,  angle: 67.5
+typ: 2 , row: 10 ,  angle: 75.0
+typ: 3 , row: 11 ,  angle: 82.5
+typ: 0 , row: 12 ,  angle: 90.0
+typ: 1 , row: 13 ,  angle: 97.5
+[m9-53-4.rc.byu.edu:10659] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2019 MIT and OpenMC contributors
+           License | http://openmc.readthedocs.io/en/latest/license.html
+           Version | 0.11.0
+         Date/Time | 2022-11-14 17:11:11
+     MPI Processes | 1
+    OpenMP Threads | 28
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading Ar36 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 900K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 1200K
+ Reading Ar38 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r38.h5
+ Reading Ar40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ r40.h5
+ Reading Pb204 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b204.h5
+ Reading Pb206 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b206.h5
+ Reading Pb207 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b207.h5
+ Reading Pb208 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/P
+ b208.h5
+ Reading Ni58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i58.h5
+ Reading Ni60 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i60.h5
+ Reading Ni61 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i61.h5
+ Reading Ni62 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i62.h5
+ Reading Ni64 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ i64.h5
+ Reading Cr50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r50.h5
+ Reading Cr52 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r52.h5
+ Reading Cr53 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r53.h5
+ Reading Cr54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ r54.h5
+ Reading Mo100 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o100.h5
+ Reading Mo92 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o92.h5
+ Reading Mo94 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o94.h5
+ Reading Mo95 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o95.h5
+ Reading Mo96 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o96.h5
+ Reading Mo97 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o97.h5
+ Reading Mo98 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ o98.h5
+ Reading Fe54 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e54.h5
+ Reading Fe56 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e56.h5
+ Reading Fe57 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e57.h5
+ Reading Fe58 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ e58.h5
+ Reading Si28 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i28.h5
+ Reading Si29 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i29.h5
+ Reading Si30 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/S
+ i30.h5
+ Reading Mn55 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/M
+ n55.h5
+ Reading C0 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ 0.h5
+ Reading Co59 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ o59.h5
+ Reading W180 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 180.h5
+ Reading W182 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 182.h5
+ Reading W183 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 183.h5
+ Reading W184 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 184.h5
+ Reading W186 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/W
+ 186.h5
+ Reading Al27 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/A
+ l27.h5
+ Reading B10 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 10.h5
+ Reading B11 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/B
+ 11.h5
+ Reading Nb93 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ b93.h5
+ Reading Ti46 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i46.h5
+ Reading Ti47 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i47.h5
+ Reading Ti48 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i48.h5
+ Reading Ti49 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i49.h5
+ Reading Ti50 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/T
+ i50.h5
+ Reading Li6 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i6.h5
+ Reading Li7 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/L
+ i7.h5
+ Reading Na23 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ a23.h5
+ Reading K39 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 39.h5
+ Reading K40 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 40.h5
+ Reading K41 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/K
+ 41.h5
+ Reading F19 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/F
+ 19.h5
+ Reading U233 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/U
+ 233.h5
+ Reading Cu63 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u63.h5
+ Reading Cu65 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/C
+ u65.h5
+ Reading N14 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 14.h5
+ Reading N15 from
+ /fslhome/bclayto4/fsl_groups/fslg_openmc/compute/openmc_resources/endfb71_hdf5/N
+ 15.h5
+ Maximum neutron transport energy: 20000000.000000 eV for Ar36
+ Minimum neutron data temperature: 900.000000 K
+ Maximum neutron data temperature: 900.000000 K
+ Reading tallies XML file...
+ Writing summary.h5 file...
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.01703
+        2/1    1.02401
+        3/1    1.04953
+        4/1    1.04313
+        5/1    1.04718
+        6/1    1.07683
+        7/1    1.08622
+        8/1    1.05906
+        9/1    1.05044
+       10/1    1.08140
+       11/1    1.06722
+       12/1    1.07410
+       13/1    1.05058
+       14/1    1.07096
+       15/1    1.09106
+       16/1    1.08200
+       17/1    1.04889
+       18/1    1.07176
+       19/1    1.06783
+       20/1    1.05852
+       21/1    1.07505
+       22/1    1.06108    1.06807 +/- 0.00698
+       23/1    1.07679    1.07097 +/- 0.00497
+       24/1    1.04813    1.06526 +/- 0.00671
+       25/1    1.09728    1.07167 +/- 0.00824
+       26/1    1.07121    1.07159 +/- 0.00673
+       27/1    1.05375    1.06904 +/- 0.00623
+       28/1    1.07040    1.06921 +/- 0.00540
+       29/1    1.05848    1.06802 +/- 0.00491
+       30/1    1.06802    1.06802 +/- 0.00439
+       31/1    1.06619    1.06785 +/- 0.00398
+       32/1    1.08226    1.06905 +/- 0.00382
+       33/1    1.05761    1.06817 +/- 0.00363
+       34/1    1.05635    1.06733 +/- 0.00346
+       35/1    1.06717    1.06732 +/- 0.00322
+       36/1    1.07940    1.06807 +/- 0.00311
+       37/1    1.07006    1.06819 +/- 0.00292
+       38/1    1.07557    1.06860 +/- 0.00278
+       39/1    1.08985    1.06972 +/- 0.00286
+       40/1    1.06425    1.06945 +/- 0.00273
+       41/1    1.07418    1.06967 +/- 0.00260
+       42/1    1.07188    1.06977 +/- 0.00249
+       43/1    1.07592    1.07004 +/- 0.00239
+       44/1    1.06714    1.06992 +/- 0.00229
+       45/1    1.05339    1.06926 +/- 0.00230
+       46/1    1.08595    1.06990 +/- 0.00230
+       47/1    1.06892    1.06986 +/- 0.00221
+       48/1    1.06089    1.06954 +/- 0.00215
+       49/1    1.06203    1.06928 +/- 0.00209
+       50/1    1.08432    1.06978 +/- 0.00208
+       51/1    1.07217    1.06986 +/- 0.00202
+       52/1    1.05887    1.06952 +/- 0.00198
+       53/1    1.07149    1.06958 +/- 0.00192
+       54/1    1.08160    1.06993 +/- 0.00190
+       55/1    1.07424    1.07005 +/- 0.00185
+       56/1    1.06195    1.06983 +/- 0.00181
+       57/1    1.09404    1.07048 +/- 0.00188
+       58/1    1.10284    1.07133 +/- 0.00202
+       59/1    1.07538    1.07144 +/- 0.00197
+       60/1    1.08804    1.07185 +/- 0.00196
+       61/1    1.07148    1.07184 +/- 0.00191
+       62/1    1.03654    1.07100 +/- 0.00205
+       63/1    1.07267    1.07104 +/- 0.00200
+       64/1    1.07285    1.07108 +/- 0.00195
+       65/1    1.07197    1.07110 +/- 0.00191
+       66/1    1.05512    1.07076 +/- 0.00190
+       67/1    1.08626    1.07109 +/- 0.00189
+       68/1    1.07925    1.07126 +/- 0.00186
+       69/1    1.06370    1.07110 +/- 0.00183
+       70/1    1.07095    1.07110 +/- 0.00179
+       71/1    1.06766    1.07103 +/- 0.00175
+       72/1    1.07703    1.07115 +/- 0.00172
+       73/1    1.07306    1.07118 +/- 0.00169
+       74/1    1.08061    1.07136 +/- 0.00167
+       75/1    1.07224    1.07137 +/- 0.00164
+       76/1    1.05113    1.07101 +/- 0.00165
+       77/1    1.05523    1.07073 +/- 0.00164
+       78/1    1.09380    1.07113 +/- 0.00166
+       79/1    1.08065    1.07129 +/- 0.00164
+       80/1    1.08163    1.07147 +/- 0.00162
+       81/1    1.07678    1.07155 +/- 0.00160
+       82/1    1.08742    1.07181 +/- 0.00159
+       83/1    1.06656    1.07173 +/- 0.00157
+       84/1    1.07421    1.07176 +/- 0.00155
+       85/1    1.07054    1.07175 +/- 0.00152
+       86/1    1.07426    1.07178 +/- 0.00150
+       87/1    1.06534    1.07169 +/- 0.00148
+       88/1    1.06763    1.07163 +/- 0.00146
+       89/1    1.06424    1.07152 +/- 0.00144
+       90/1    1.06884    1.07148 +/- 0.00142
+       91/1    1.07619    1.07155 +/- 0.00140
+       92/1    1.06320    1.07143 +/- 0.00139
+       93/1    1.04738    1.07110 +/- 0.00141
+       94/1    1.06933    1.07108 +/- 0.00139
+       95/1    1.06262    1.07097 +/- 0.00138
+       96/1    1.09557    1.07129 +/- 0.00140
+       97/1    1.05941    1.07114 +/- 0.00139
+       98/1    1.09782    1.07148 +/- 0.00141
+       99/1    1.07306    1.07150 +/- 0.00139
+      100/1    1.06310    1.07139 +/- 0.00138
+      101/1    1.07063    1.07138 +/- 0.00136
+      102/1    1.06320    1.07128 +/- 0.00135
+      103/1    1.06503    1.07121 +/- 0.00133
+      104/1    1.06154    1.07109 +/- 0.00132
+      105/1    1.07803    1.07118 +/- 0.00131
+      106/1    1.05435    1.07098 +/- 0.00131
+      107/1    1.05223    1.07076 +/- 0.00131
+      108/1    1.07103    1.07077 +/- 0.00130
+      109/1    1.05944    1.07064 +/- 0.00129
+      110/1    1.06362    1.07056 +/- 0.00128
+      111/1    1.08678    1.07074 +/- 0.00128
+      112/1    1.05719    1.07059 +/- 0.00127
+      113/1    1.07956    1.07069 +/- 0.00126
+      114/1    1.07688    1.07075 +/- 0.00125
+      115/1    1.07610    1.07081 +/- 0.00124
+      116/1    1.08141    1.07092 +/- 0.00123
+      117/1    1.08731    1.07109 +/- 0.00123
+      118/1    1.08039    1.07119 +/- 0.00122
+      119/1    1.06385    1.07111 +/- 0.00121
+      120/1    1.07936    1.07119 +/- 0.00120
+ Creating state point statepoint.120.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 9.2713e+00 seconds
+   Reading cross sections          = 8.2128e+00 seconds
+ Total time in simulation          = 2.9042e+03 seconds
+   Time in transport only          = 2.8267e+03 seconds
+   Time in inactive batches        = 4.3759e+02 seconds
+   Time in active batches          = 2.4666e+03 seconds
+   Time synchronizing fission bank = 1.3465e-01 seconds
+     Sampling source sites         = 1.1653e-01 seconds
+     SEND/RECV source sites        = 1.6344e-02 seconds
+   Time accumulating tallies       = 7.6385e+01 seconds
+ Total time for finalization       = 3.5671e+01 seconds
+ Total time elapsed                = 2.9592e+03 seconds
+ Calculation Rate (inactive)       = 457.047 particles/second
+ Calculation Rate (active)         = 405.422 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.06990 +/- 0.00113
+ k-effective (Track-length)  = 1.07119 +/- 0.00120
+ k-effective (Absorption)    = 1.06847 +/- 0.00109
+ Combined k-effective        = 1.06962 +/- 0.00088
+ Leakage Fraction            = 0.00197 +/- 0.00004
+
